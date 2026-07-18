@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+  EMS Automation Framework - TestNG Suite Configuration
+  Execution Order:
+    1. Browser Launch    (BeforeSuite in BaseTest)
+    2. Admin Login       (test_01)
+    3. Admin Modules     (test_02 to test_11)
+    4. Admin Logout      (test_12)
+    5. Employee Login    (test_13)
+    6. Employee Modules  (test_14 to test_22)
+    7. Employee Logout   (test_23)
+    8. Browser Close     (AfterSuite in BaseTest)
+-->
+
+<suite name="EMS-Automation-Suite"
+       verbose="2"
+       thread-count="1"
+       parallel="none"
+       preserve-order="true">
+
+    <!-- Register Listeners -->
+    <listeners>
+        <listener class-name="com.employee.automation.listeners.TestListeners"/>
+    </listeners>
+
+    <test name="EMS-Full-Regression-Suite" preserve-order="true">
+
+        <classes>
+            <class name="com.employee.automation.tests.EMSAutomationTest">
+                <methods>
+                    <!-- ═══════ PHASE 1: ADMIN ═══════ -->
+                    <include name="test_01_AdminLogin"/>
+                    <include name="test_02_AdminDashboard"/>
+                    <include name="test_03_AdminEmployeeManagement"/>
+                    <include name="test_04_AdminDepartments"/>
+                    <include name="test_05_AdminAttendance"/>
+                    <include name="test_06_AdminLeaveManagement"/>
+                    <include name="test_07_AdminAnnouncements"/>
+                    <include name="test_08_AdminProjects"/>
+                    <include name="test_09_AdminPayroll"/>
+                    <include name="test_10_AdminDocuments"/>
+                    <include name="test_11_AdminSettings"/>
+                    <include name="test_12_AdminLogout"/>
+
+                    <!-- ═══════ PHASE 2: EMPLOYEE ═══════ -->
+                    <include name="test_13_EmployeeLogin"/>
+                    <include name="test_14_EmployeeHome"/>
+                    <include name="test_15_EmployeeAttendance"/>
+                    <include name="test_16_EmployeeLeaveRequest"/>
+                    <include name="test_17_EmployeeAnnouncements"/>
+                    <include name="test_18_EmployeeProjects"/>
+                    <include name="test_19_EmployeePayslips"/>
+                    <include name="test_20_EmployeeDocuments"/>
+                    <include name="test_21_EmployeeProfile"/>
+                    <include name="test_22_EmployeeSettings"/>
+                    <include name="test_23_EmployeeLogout"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>

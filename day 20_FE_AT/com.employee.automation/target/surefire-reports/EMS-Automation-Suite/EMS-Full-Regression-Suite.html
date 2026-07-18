@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  EMS-Full-Regression-Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EMS-Full-Regression-Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 18 10:21:40 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>229 seconds (229102 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_11_AdminSettings()'><b>test_11_AdminSettings</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Settings - Verify settings sections, toggles, save</td>
+<td></td>
+<td>5</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_15_EmployeeAttendance()'><b>test_15_EmployeeAttendance</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Attendance - Clock in, verify timer, check table</td>
+<td></td>
+<td>20</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_03_AdminEmployeeManagement()'><b>test_03_AdminEmployeeManagement</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Employees - Table, Search, Add, Edit, Delete Employee</td>
+<td></td>
+<td>25</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_06_AdminLeaveManagement()'><b>test_06_AdminLeaveManagement</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Leave - Verify leave queue, approve/reject actions</td>
+<td></td>
+<td>10</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_20_EmployeeDocuments()'><b>test_20_EmployeeDocuments</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Documents - View company docs, search, filter, download</td>
+<td></td>
+<td>11</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_14_EmployeeHome()'><b>test_14_EmployeeHome</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Home - Verify workspace, greeting, leave balance, clock widget</td>
+<td></td>
+<td>2</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_18_EmployeeProjects()'><b>test_18_EmployeeProjects</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Projects - View project board, progress bars, badges</td>
+<td></td>
+<td>4</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_19_EmployeePayslips()'><b>test_19_EmployeePayslips</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Payslips - View payslip breakdown, verify salary slip modal</td>
+<td></td>
+<td>5</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_09_AdminPayroll()'><b>test_09_AdminPayroll</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Payroll - Verify salary register, stat cards, compliance run</td>
+<td></td>
+<td>6</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_05_AdminAttendance()'><b>test_05_AdminAttendance</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Attendance - Verify attendance monitor, search, filters</td>
+<td></td>
+<td>26</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_08_AdminProjects()'><b>test_08_AdminProjects</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Projects - View project cards, add project, stat cards</td>
+<td></td>
+<td>11</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_16_EmployeeLeaveRequest()'><b>test_16_EmployeeLeaveRequest</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Leave Request - Apply, validate form, check history</td>
+<td></td>
+<td>22</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_07_AdminAnnouncements()'><b>test_07_AdminAnnouncements</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Announcements - Compose, verify cards, search</td>
+<td></td>
+<td>12</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_10_AdminDocuments()'><b>test_10_AdminDocuments</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Documents - File catalog, search, upload, download</td>
+<td></td>
+<td>11</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_21_EmployeeProfile()'><b>test_21_EmployeeProfile</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Profile - Verify profile info, edit phone, save</td>
+<td></td>
+<td>10</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_17_EmployeeAnnouncements()'><b>test_17_EmployeeAnnouncements</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Announcements - Read notices, search announcements</td>
+<td></td>
+<td>10</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_02_AdminDashboard()'><b>test_02_AdminDashboard</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Dashboard - Verify metrics, stat cards, sidebar navigation</td>
+<td></td>
+<td>6</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin()'><b>test_13_EmployeeLogin</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Login - Login with employee credentials in same browser</td>
+<td></td>
+<td>2</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_04_AdminDepartments()'><b>test_04_AdminDepartments</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Departments - Verify department cards and drill-down</td>
+<td></td>
+<td>5</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_12_AdminLogout()'><b>test_12_AdminLogout</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Logout - Logout from admin account and verify login page</td>
+<td></td>
+<td>0</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_23_EmployeeLogout()'><b>test_23_EmployeeLogout</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Logout - Logout and verify login page is shown</td>
+<td></td>
+<td>0</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin()'><b>test_01_AdminLogin</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Admin Login - Authenticate with admin credentials</td>
+<td></td>
+<td>3</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+<tr>
+<td title='com.employee.automation.tests.EMSAutomationTest.test_22_EmployeeSettings()'><b>test_22_EmployeeSettings</b><br>Test class: com.employee.automation.tests.EMSAutomationTest<br>Test method: Employee Settings - Verify settings sections and toggles</td>
+<td></td>
+<td>5</td>
+<td>com.employee.automation.tests.EMSAutomationTest@39a8312f</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EMS_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">EMS-Automation-Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EMS_Automation_Suite" class="navigator-link ">
+                    <span>D:\proc\java\day 20_FE_AT\com.employee.automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EMS_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EMS_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EMS_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EMS_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EMS_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EMS_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EMS_Automation_Suite" class="hide-methods passed suite-EMS_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-EMS_Automation_Suite -->
+                      <a href="#" panel-name="suite-EMS_Automation_Suite" class="show-methods passed suite-EMS_Automation_Suite"> (show)</a> <!-- show-methods passed suite-EMS_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-EMS_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_01_AdminLogin">test_01_AdminLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_02_AdminDashboard">test_02_AdminDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_03_AdminEmployeeManagement">test_03_AdminEmployeeManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_04_AdminDepartments">test_04_AdminDepartments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_05_AdminAttendance">test_05_AdminAttendance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_06_AdminLeaveManagement">test_06_AdminLeaveManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_07_AdminAnnouncements">test_07_AdminAnnouncements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_08_AdminProjects">test_08_AdminProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_09_AdminPayroll">test_09_AdminPayroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_10_AdminDocuments">test_10_AdminDocuments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_11_AdminSettings">test_11_AdminSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_12_AdminLogout">test_12_AdminLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_13_EmployeeLogin">test_13_EmployeeLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_14_EmployeeHome">test_14_EmployeeHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_15_EmployeeAttendance">test_15_EmployeeAttendance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_16_EmployeeLeaveRequest">test_16_EmployeeLeaveRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_17_EmployeeAnnouncements">test_17_EmployeeAnnouncements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_18_EmployeeProjects">test_18_EmployeeProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_19_EmployeePayslips">test_19_EmployeePayslips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_20_EmployeeDocuments">test_20_EmployeeDocuments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_21_EmployeeProfile">test_21_EmployeeProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_22_EmployeeSettings">test_22_EmployeeSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EMS_Automation_Suite" title="com.employee.automation.tests.EMSAutomationTest" class="method navigator-link" hash-for-method="test_23_EmployeeLogout">test_23_EmployeeLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EMS_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EMS_Automation_Suite" class="panel EMS_Automation_Suite">
+          <div class="suite-EMS_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.employee.automation.tests.EMSAutomationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_01_AdminLogin">
+                  </a> <!-- test_01_AdminLogin -->
+                  <span class="method-name">test_01_AdminLogin</span>
+                  <em>
+(Admin Login - Authenticate with admin credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_02_AdminDashboard">
+                  </a> <!-- test_02_AdminDashboard -->
+                  <span class="method-name">test_02_AdminDashboard</span>
+                  <em>
+(Admin Dashboard - Verify metrics, stat cards, sidebar navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_03_AdminEmployeeManagement">
+                  </a> <!-- test_03_AdminEmployeeManagement -->
+                  <span class="method-name">test_03_AdminEmployeeManagement</span>
+                  <em>
+(Admin Employees - Table, Search, Add, Edit, Delete Employee)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_04_AdminDepartments">
+                  </a> <!-- test_04_AdminDepartments -->
+                  <span class="method-name">test_04_AdminDepartments</span>
+                  <em>
+(Admin Departments - Verify department cards and drill-down)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_05_AdminAttendance">
+                  </a> <!-- test_05_AdminAttendance -->
+                  <span class="method-name">test_05_AdminAttendance</span>
+                  <em>
+(Admin Attendance - Verify attendance monitor, search, filters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_06_AdminLeaveManagement">
+                  </a> <!-- test_06_AdminLeaveManagement -->
+                  <span class="method-name">test_06_AdminLeaveManagement</span>
+                  <em>
+(Admin Leave - Verify leave queue, approve/reject actions)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_07_AdminAnnouncements">
+                  </a> <!-- test_07_AdminAnnouncements -->
+                  <span class="method-name">test_07_AdminAnnouncements</span>
+                  <em>
+(Admin Announcements - Compose, verify cards, search)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_08_AdminProjects">
+                  </a> <!-- test_08_AdminProjects -->
+                  <span class="method-name">test_08_AdminProjects</span>
+                  <em>
+(Admin Projects - View project cards, add project, stat cards)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_09_AdminPayroll">
+                  </a> <!-- test_09_AdminPayroll -->
+                  <span class="method-name">test_09_AdminPayroll</span>
+                  <em>
+(Admin Payroll - Verify salary register, stat cards, compliance run)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_10_AdminDocuments">
+                  </a> <!-- test_10_AdminDocuments -->
+                  <span class="method-name">test_10_AdminDocuments</span>
+                  <em>
+(Admin Documents - File catalog, search, upload, download)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_11_AdminSettings">
+                  </a> <!-- test_11_AdminSettings -->
+                  <span class="method-name">test_11_AdminSettings</span>
+                  <em>
+(Admin Settings - Verify settings sections, toggles, save)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_12_AdminLogout">
+                  </a> <!-- test_12_AdminLogout -->
+                  <span class="method-name">test_12_AdminLogout</span>
+                  <em>
+(Admin Logout - Logout from admin account and verify login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_13_EmployeeLogin">
+                  </a> <!-- test_13_EmployeeLogin -->
+                  <span class="method-name">test_13_EmployeeLogin</span>
+                  <em>
+(Employee Login - Login with employee credentials in same browser)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_14_EmployeeHome">
+                  </a> <!-- test_14_EmployeeHome -->
+                  <span class="method-name">test_14_EmployeeHome</span>
+                  <em>
+(Employee Home - Verify workspace, greeting, leave balance, clock widget)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_15_EmployeeAttendance">
+                  </a> <!-- test_15_EmployeeAttendance -->
+                  <span class="method-name">test_15_EmployeeAttendance</span>
+                  <em>
+(Employee Attendance - Clock in, verify timer, check table)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_16_EmployeeLeaveRequest">
+                  </a> <!-- test_16_EmployeeLeaveRequest -->
+                  <span class="method-name">test_16_EmployeeLeaveRequest</span>
+                  <em>
+(Employee Leave Request - Apply, validate form, check history)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_17_EmployeeAnnouncements">
+                  </a> <!-- test_17_EmployeeAnnouncements -->
+                  <span class="method-name">test_17_EmployeeAnnouncements</span>
+                  <em>
+(Employee Announcements - Read notices, search announcements)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_18_EmployeeProjects">
+                  </a> <!-- test_18_EmployeeProjects -->
+                  <span class="method-name">test_18_EmployeeProjects</span>
+                  <em>
+(Employee Projects - View project board, progress bars, badges)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_19_EmployeePayslips">
+                  </a> <!-- test_19_EmployeePayslips -->
+                  <span class="method-name">test_19_EmployeePayslips</span>
+                  <em>
+(Employee Payslips - View payslip breakdown, verify salary slip modal)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_20_EmployeeDocuments">
+                  </a> <!-- test_20_EmployeeDocuments -->
+                  <span class="method-name">test_20_EmployeeDocuments</span>
+                  <em>
+(Employee Documents - View company docs, search, filter, download)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_21_EmployeeProfile">
+                  </a> <!-- test_21_EmployeeProfile -->
+                  <span class="method-name">test_21_EmployeeProfile</span>
+                  <em>
+(Employee Profile - Verify profile info, edit phone, save)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_22_EmployeeSettings">
+                  </a> <!-- test_22_EmployeeSettings -->
+                  <span class="method-name">test_22_EmployeeSettings</span>
+                  <em>
+(Employee Settings - Verify settings sections and toggles)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_23_EmployeeLogout">
+                  </a> <!-- test_23_EmployeeLogout -->
+                  <span class="method-name">test_23_EmployeeLogout</span>
+                  <em>
+(Employee Logout - Logout and verify login page is shown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EMS_Automation_Suite-class-passed -->
+        </div> <!-- panel EMS_Automation_Suite -->
+        <div panel-name="test-xml-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\proc\java\day 20_FE_AT\com.employee.automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;EMS-Automation-Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.employee.automation.listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;EMS-Full-Regression-Suite&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.employee.automation.tests.EMSAutomationTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test_01_AdminLogin&quot;/&gt;
+          &lt;include name=&quot;test_02_AdminDashboard&quot;/&gt;
+          &lt;include name=&quot;test_03_AdminEmployeeManagement&quot;/&gt;
+          &lt;include name=&quot;test_04_AdminDepartments&quot;/&gt;
+          &lt;include name=&quot;test_05_AdminAttendance&quot;/&gt;
+          &lt;include name=&quot;test_06_AdminLeaveManagement&quot;/&gt;
+          &lt;include name=&quot;test_07_AdminAnnouncements&quot;/&gt;
+          &lt;include name=&quot;test_08_AdminProjects&quot;/&gt;
+          &lt;include name=&quot;test_09_AdminPayroll&quot;/&gt;
+          &lt;include name=&quot;test_10_AdminDocuments&quot;/&gt;
+          &lt;include name=&quot;test_11_AdminSettings&quot;/&gt;
+          &lt;include name=&quot;test_12_AdminLogout&quot;/&gt;
+          &lt;include name=&quot;test_13_EmployeeLogin&quot;/&gt;
+          &lt;include name=&quot;test_14_EmployeeHome&quot;/&gt;
+          &lt;include name=&quot;test_15_EmployeeAttendance&quot;/&gt;
+          &lt;include name=&quot;test_16_EmployeeLeaveRequest&quot;/&gt;
+          &lt;include name=&quot;test_17_EmployeeAnnouncements&quot;/&gt;
+          &lt;include name=&quot;test_18_EmployeeProjects&quot;/&gt;
+          &lt;include name=&quot;test_19_EmployeePayslips&quot;/&gt;
+          &lt;include name=&quot;test_20_EmployeeDocuments&quot;/&gt;
+          &lt;include name=&quot;test_21_EmployeeProfile&quot;/&gt;
+          &lt;include name=&quot;test_22_EmployeeSettings&quot;/&gt;
+          &lt;include name=&quot;test_23_EmployeeLogout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.employee.automation.tests.EMSAutomationTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EMS-Full-Regression-Suite --&gt;
+&lt;/suite&gt; &lt;!-- EMS-Automation-Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EMS-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EMS-Full-Regression-Suite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EMS-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EMS-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EMS_Automation_Suite');
+function tableData_EMS_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_05_AdminAttendance')
+data.setCell(0, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(0, 3, 26308);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_03_AdminEmployeeManagement')
+data.setCell(1, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(1, 3, 25297);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_16_EmployeeLeaveRequest')
+data.setCell(2, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(2, 3, 22527);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_15_EmployeeAttendance')
+data.setCell(3, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(3, 3, 20962);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_07_AdminAnnouncements')
+data.setCell(4, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(4, 3, 12801);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_08_AdminProjects')
+data.setCell(5, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(5, 3, 11948);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_10_AdminDocuments')
+data.setCell(6, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(6, 3, 11248);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_20_EmployeeDocuments')
+data.setCell(7, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(7, 3, 11185);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_17_EmployeeAnnouncements')
+data.setCell(8, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(8, 3, 10713);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_06_AdminLeaveManagement')
+data.setCell(9, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(9, 3, 10194);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_21_EmployeeProfile')
+data.setCell(10, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(10, 3, 10153);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_09_AdminPayroll')
+data.setCell(11, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(11, 3, 6486);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_02_AdminDashboard')
+data.setCell(12, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(12, 3, 6348);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_19_EmployeePayslips')
+data.setCell(13, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(13, 3, 5823);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_04_AdminDepartments')
+data.setCell(14, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(14, 3, 5525);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_11_AdminSettings')
+data.setCell(15, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(15, 3, 5081);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_22_EmployeeSettings')
+data.setCell(16, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(16, 3, 5066);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_18_EmployeeProjects')
+data.setCell(17, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(17, 3, 4995);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_01_AdminLogin')
+data.setCell(18, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(18, 3, 3180);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_14_EmployeeHome')
+data.setCell(19, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(19, 3, 2808);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_13_EmployeeLogin')
+data.setCell(20, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(20, 3, 2350);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_23_EmployeeLogout')
+data.setCell(21, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(21, 3, 335);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_12_AdminLogout')
+data.setCell(22, 2, 'com.employee.automation.tests.EMSAutomationTest')
+data.setCell(22, 3, 327);
+window.suiteTableData['EMS_Automation_Suite']= { tableData: data, tableDiv: 'times-div-EMS_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-EMS_Automation_Suite">
+              </div> <!-- times-div-EMS_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EMS-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EMS_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employee.automation.tests.EMSAutomationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">test_01_AdminLogin</span>
+                <span class="method-start">7059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_02_AdminDashboard</span>
+                <span class="method-start">10564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_03_AdminEmployeeManagement</span>
+                <span class="method-start">17162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_04_AdminDepartments</span>
+                <span class="method-start">42715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_05_AdminAttendance</span>
+                <span class="method-start">48593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_06_AdminLeaveManagement</span>
+                <span class="method-start">75178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_07_AdminAnnouncements</span>
+                <span class="method-start">85684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_08_AdminProjects</span>
+                <span class="method-start">98756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_09_AdminPayroll</span>
+                <span class="method-start">111021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_10_AdminDocuments</span>
+                <span class="method-start">117830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_11_AdminSettings</span>
+                <span class="method-start">129377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_12_AdminLogout</span>
+                <span class="method-start">134877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_13_EmployeeLogin</span>
+                <span class="method-start">135394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_14_EmployeeHome</span>
+                <span class="method-start">138049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_15_EmployeeAttendance</span>
+                <span class="method-start">141162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_16_EmployeeLeaveRequest</span>
+                <span class="method-start">162565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_17_EmployeeAnnouncements</span>
+                <span class="method-start">185519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_18_EmployeeProjects</span>
+                <span class="method-start">196558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_19_EmployeePayslips</span>
+                <span class="method-start">201951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_20_EmployeeDocuments</span>
+                <span class="method-start">208168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_21_EmployeeProfile</span>
+                <span class="method-start">219646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_22_EmployeeSettings</span>
+                <span class="method-start">230134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_23_EmployeeLogout</span>
+                <span class="method-start">235559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">236136 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

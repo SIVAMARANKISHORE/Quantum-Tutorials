@@ -1,0 +1,1491 @@
+2026-07-18 09:24:29 [INFO ] [ConfigReader] - Loaded config.properties from: config.properties
+2026-07-18 09:24:29 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:24:29 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Starting
+2026-07-18 09:24:29 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:24:29 [INFO ] [DriverFactory] - Initializing ChromeDriver via WebDriverManager...
+2026-07-18 09:24:39 [INFO ] [DriverFactory] - ChromeDriver initialized successfully.
+2026-07-18 09:24:39 [INFO ] [ExtentManager] - ExtentReports initialized. Report path: reports\EMS_Report_2026-07-18_09-24-39.html
+2026-07-18 09:24:39 [INFO ] [BaseTest] - Browser launched. Navigating to: http://localhost:5173
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [INFO ] [TestListeners] - TEST START: test_01_AdminLogin
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_01_AdminLogin
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [INFO ] [TestListeners] - TEST START: test_02_AdminDashboard
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_02_AdminDashboard
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [INFO ] [TestListeners] - TEST START: test_03_AdminEmployeeManagement
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_03_AdminEmployeeManagement
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [INFO ] [TestListeners] - TEST START: test_04_AdminDepartments
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:44 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_04_AdminDepartments
+2026-07-18 09:24:44 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_05_AdminAttendance
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_05_AdminAttendance
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_06_AdminLeaveManagement
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_06_AdminLeaveManagement
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_07_AdminAnnouncements
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_07_AdminAnnouncements
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_08_AdminProjects
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_08_AdminProjects
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_09_AdminPayroll
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_09_AdminPayroll
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_10_AdminDocuments
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_10_AdminDocuments
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_11_AdminSettings
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_11_AdminSettings
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_12_AdminLogout
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_12_AdminLogout
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_13_EmployeeLogin
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_13_EmployeeLogin
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_14_EmployeeHome
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_14_EmployeeHome
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_15_EmployeeAttendance
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_15_EmployeeAttendance
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_16_EmployeeLeaveRequest
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_16_EmployeeLeaveRequest
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_17_EmployeeAnnouncements
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_17_EmployeeAnnouncements
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_18_EmployeeProjects
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_18_EmployeeProjects
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_19_EmployeePayslips
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_19_EmployeePayslips
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_20_EmployeeDocuments
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_20_EmployeeDocuments
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_21_EmployeeProfile
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_21_EmployeeProfile
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_22_EmployeeSettings
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_22_EmployeeSettings
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [INFO ] [TestListeners] - TEST START: test_23_EmployeeLogout
+2026-07-18 09:24:45 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:24:45 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_23_EmployeeLogout
+2026-07-18 09:24:45 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:24:45 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Complete
+2026-07-18 09:24:45 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:24:46 [INFO ] [ExtentManager] - ExtentReports flushed successfully.
+2026-07-18 09:24:46 [INFO ] [DriverFactory] - Quitting ChromeDriver...
+2026-07-18 09:24:47 [INFO ] [DriverFactory] - ChromeDriver terminated.
+2026-07-18 09:25:22 [INFO ] [ConfigReader] - Loaded config.properties from: config.properties
+2026-07-18 09:25:22 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:25:22 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Starting
+2026-07-18 09:25:22 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:25:22 [INFO ] [DriverFactory] - Initializing ChromeDriver via WebDriverManager...
+2026-07-18 09:25:24 [INFO ] [DriverFactory] - ChromeDriver initialized successfully.
+2026-07-18 09:25:25 [INFO ] [ExtentManager] - ExtentReports initialized. Report path: reports\EMS_Report_2026-07-18_09-25-24.html
+2026-07-18 09:25:25 [INFO ] [BaseTest] - Browser launched. Navigating to: http://localhost:5173
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_01_AdminLogin
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_01_AdminLogin
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_02_AdminDashboard
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_02_AdminDashboard
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_03_AdminEmployeeManagement
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_03_AdminEmployeeManagement
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_04_AdminDepartments
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_04_AdminDepartments
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_05_AdminAttendance
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_05_AdminAttendance
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_06_AdminLeaveManagement
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_06_AdminLeaveManagement
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_07_AdminAnnouncements
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_07_AdminAnnouncements
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_08_AdminProjects
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_08_AdminProjects
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_09_AdminPayroll
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_09_AdminPayroll
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_10_AdminDocuments
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_10_AdminDocuments
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_11_AdminSettings
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_11_AdminSettings
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_12_AdminLogout
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_12_AdminLogout
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_13_EmployeeLogin
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_13_EmployeeLogin
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_14_EmployeeHome
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_14_EmployeeHome
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_15_EmployeeAttendance
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_15_EmployeeAttendance
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_16_EmployeeLeaveRequest
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_16_EmployeeLeaveRequest
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_17_EmployeeAnnouncements
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_17_EmployeeAnnouncements
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_18_EmployeeProjects
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_18_EmployeeProjects
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_19_EmployeePayslips
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_19_EmployeePayslips
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_20_EmployeeDocuments
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_20_EmployeeDocuments
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_21_EmployeeProfile
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_21_EmployeeProfile
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_22_EmployeeSettings
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_22_EmployeeSettings
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [INFO ] [TestListeners] - TEST START: test_23_EmployeeLogout
+2026-07-18 09:25:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:25:30 [WARN ] [TestListeners] - ⚠️ TEST SKIPPED: test_23_EmployeeLogout
+2026-07-18 09:25:31 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:25:31 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Complete
+2026-07-18 09:25:31 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:25:32 [INFO ] [ExtentManager] - ExtentReports flushed successfully.
+2026-07-18 09:25:32 [INFO ] [DriverFactory] - Quitting ChromeDriver...
+2026-07-18 09:25:33 [INFO ] [DriverFactory] - ChromeDriver terminated.
+2026-07-18 09:32:17 [INFO ] [ConfigReader] - Loaded config.properties from: config.properties
+2026-07-18 09:32:17 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:32:17 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Starting
+2026-07-18 09:32:17 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:32:17 [INFO ] [DriverFactory] - Initializing ChromeDriver via WebDriverManager...
+2026-07-18 09:32:20 [INFO ] [DriverFactory] - ChromeDriver initialized successfully.
+2026-07-18 09:32:20 [INFO ] [ExtentManager] - ExtentReports initialized. Report path: reports\EMS_Report_2026-07-18_09-32-20.html
+2026-07-18 09:32:20 [INFO ] [BaseTest] - Browser launched. Navigating to: http://localhost:5173
+2026-07-18 09:32:21 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:21 [INFO ] [TestListeners] - TEST START: test_01_AdminLogin
+2026-07-18 09:32:21 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:21 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Login
+2026-07-18 09:32:21 [INFO ] [BaseTest] - ═══ PHASE 1: ADMIN LOGIN ═══
+2026-07-18 09:32:21 [DEBUG] [BaseTest] - Navigating to: http://localhost:5173/login
+2026-07-18 09:32:22 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:32:23 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 09:32:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 09:32:23 [INFO ] [LoginPage] - Logging in as ADMIN: admin
+2026-07-18 09:32:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:32:23 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 09:32:23 [INFO ] [LoginPage] - Selecting Admin role on login form...
+2026-07-18 09:32:23 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[id*='admin'], button[data-role='admin']
+2026-07-18 09:32:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='text'], input[placeholder*='ID'], input[placeholder*='id'], input[placeholder*='username'], input[name='username']
+2026-07-18 09:32:23 [INFO ] [LoginPage] - Entered username: admin
+2026-07-18 09:32:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:32:24 [INFO ] [LoginPage] - Entered password: [HIDDEN]
+2026-07-18 09:32:24 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 09:32:24 [INFO ] [LoginPage] - Clicked Sign In button.
+2026-07-18 09:32:24 [DEBUG] [WaitUtils] - Waiting for URL to contain: admin
+2026-07-18 09:32:25 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:32:25 [INFO ] [DashboardPage] - Dashboard/shell loaded: true
+2026-07-18 09:32:25 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\01_Admin_Login_Success_20260718_093225.png
+2026-07-18 09:32:25 [INFO ] [TestListeners] - ✅ TEST PASSED: test_01_AdminLogin [4766 ms]
+2026-07-18 09:32:26 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:26 [INFO ] [TestListeners] - TEST START: test_02_AdminDashboard
+2026-07-18 09:32:26 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:26 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Dashboard
+2026-07-18 09:32:26 [INFO ] [BaseTest] - ── Admin Dashboard ──
+2026-07-18 09:32:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .topbar-avatar-wrap, .user-badge, .topbar-user
+2026-07-18 09:32:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .bell-btn, button[aria-label*='notification']
+2026-07-18 09:32:32 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar-search-box input, .sidebar input[placeholder*='Search'], .search-panel input
+2026-07-18 09:32:32 [INFO ] [DashboardPage] - Searched sidebar: Employee
+2026-07-18 09:32:32 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar-search-box input, .sidebar input[placeholder*='Search'], .search-panel input
+2026-07-18 09:32:32 [INFO ] [DashboardPage] - Searched sidebar: 
+2026-07-18 09:32:32 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\02_Admin_Dashboard_20260718_093232.png
+2026-07-18 09:32:32 [INFO ] [TestListeners] - ✅ TEST PASSED: test_02_AdminDashboard [6784 ms]
+2026-07-18 09:32:33 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:33 [INFO ] [TestListeners] - TEST START: test_03_AdminEmployeeManagement
+2026-07-18 09:32:33 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:33 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Employee Management
+2026-07-18 09:32:33 [INFO ] [BaseTest] - ── Admin: Employee Management ──
+2026-07-18 09:32:33 [INFO ] [DashboardPage] - Navigating to module: Employees
+2026-07-18 09:32:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:35 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/employees'], a[href*='employees']
+2026-07-18 09:32:35 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:32:35 [INFO ] [DashboardPage] - Navigation complete (sidebar): Employees
+2026-07-18 09:32:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 09:32:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 09:32:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: button.btn-primary, button[class*='primary']
+2026-07-18 09:32:35 [INFO ] [AdminEmployeesPage] - Searching for employee: Arjun
+2026-07-18 09:32:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 09:32:36 [INFO ] [AdminEmployeesPage] - Searching for employee: xyz_no_match_xyz
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .pagination-info, .page-info, span:has-text('Page')
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .pagination button[aria-label*='Next'], .pagination-btn:last-child, button:has-text('›'), button[disabled*='false'] ~ button
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-primary, button[class*='primary']
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:36 [INFO ] [AdminEmployeesPage] - Add Employee modal opened.
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='name']
+2026-07-18 09:32:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='email']
+2026-07-18 09:32:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='phone']
+2026-07-18 09:32:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='department']
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='jobTitle']
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='salary']
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='status']
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='location']
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='joinDate']
+2026-07-18 09:32:38 [INFO ] [AdminEmployeesPage] - Date field set via JS: 2026-07-01
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='role']
+2026-07-18 09:32:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='password']
+2026-07-18 09:32:39 [INFO ] [AdminEmployeesPage] - Filled employee form for: Test Automation User
+2026-07-18 09:32:39 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], .modal-footer button.btn-primary
+2026-07-18 09:32:39 [INFO ] [AdminEmployeesPage] - Save Employee clicked.
+2026-07-18 09:32:39 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:40 [WARN ] [AdminEmployeesPage] - Residual modal detected after save — closing.
+2026-07-18 09:32:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .close-btn, .modal button[class*='close']
+2026-07-18 09:32:41 [INFO ] [AdminEmployeesPage] - Modal closed.
+2026-07-18 09:32:41 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toast, .toast-message, [class*='toast']
+2026-07-18 09:32:46 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:46 [INFO ] [AdminEmployeesPage] - Edit modal opened for first employee.
+2026-07-18 09:32:46 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:46 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='jobTitle']
+2026-07-18 09:32:46 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='jobTitle']
+2026-07-18 09:32:46 [WARN ] [AdminEmployeesPage] - Select not found or option unavailable: By.cssSelector: select[name='jobTitle'] / Senior Engineer
+2026-07-18 09:32:46 [INFO ] [AdminEmployeesPage] - Job title updated (fallback select) to: Senior Engineer
+2026-07-18 09:32:46 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], .modal-footer button.btn-primary
+2026-07-18 09:32:47 [INFO ] [AdminEmployeesPage] - Save Employee clicked.
+2026-07-18 09:32:47 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:47 [WARN ] [AdminEmployeesPage] - Residual modal detected after save — closing.
+2026-07-18 09:32:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .close-btn, .modal button[class*='close']
+2026-07-18 09:32:48 [INFO ] [AdminEmployeesPage] - Modal closed.
+2026-07-18 09:32:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 09:32:49 [INFO ] [AdminEmployeesPage] - Delete confirmation modal triggered.
+2026-07-18 09:32:49 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .confirm-modal button.btn-danger, .modal-footer button.btn-danger, button.btn-danger
+2026-07-18 09:32:49 [INFO ] [AdminEmployeesPage] - Delete confirmed.
+2026-07-18 09:32:49 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\03_Admin_Employee_Management_20260718_093249.png
+2026-07-18 09:32:49 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:32:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:49 [WARN ] [DashboardPage] - Modal overlay detected — dismissing before navigation.
+2026-07-18 09:32:50 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:51 [INFO ] [DashboardPage] - Modal overlay dismissed.
+2026-07-18 09:32:51 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:32:56 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63987}, goog:processID: 18884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57a63e64b7a92d72659d2014c5caab93
+2026-07-18 09:32:57 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:32:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:32:57 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 09:32:57 [INFO ] [TestListeners] - ✅ TEST PASSED: test_03_AdminEmployeeManagement [23939 ms]
+2026-07-18 09:32:57 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:57 [INFO ] [TestListeners] - TEST START: test_04_AdminDepartments
+2026-07-18 09:32:57 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:32:57 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Departments
+2026-07-18 09:32:57 [INFO ] [BaseTest] - ── Admin: Departments ──
+2026-07-18 09:32:57 [INFO ] [DashboardPage] - Navigating to module: Departments
+2026-07-18 09:32:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:32:59 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/departments'], a[href*='departments']
+2026-07-18 09:32:59 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:32:59 [INFO ] [DashboardPage] - Navigation complete (sidebar): Departments
+2026-07-18 09:32:59 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:33:00 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 09:33:00 [INFO ] [DepartmentsPage] - Drilled into first department.
+2026-07-18 09:33:00 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 09:33:00 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-secondary
+2026-07-18 09:33:00 [INFO ] [DepartmentsPage] - Back to department catalog.
+2026-07-18 09:33:00 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\04_Admin_Departments_20260718_093300.png
+2026-07-18 09:33:00 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:33:00 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:03 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:33:03 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:03 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 09:33:03 [INFO ] [TestListeners] - ✅ TEST PASSED: test_04_AdminDepartments [5815 ms]
+2026-07-18 09:33:03 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:03 [INFO ] [TestListeners] - TEST START: test_05_AdminAttendance
+2026-07-18 09:33:03 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:03 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Attendance
+2026-07-18 09:33:03 [INFO ] [BaseTest] - ── Admin: Attendance Monitor ──
+2026-07-18 09:33:03 [INFO ] [DashboardPage] - Navigating to module: Attendance
+2026-07-18 09:33:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:05 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/attendance'], a[href*='attendance']
+2026-07-18 09:33:05 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:05 [INFO ] [DashboardPage] - Navigation complete (sidebar): Attendance
+2026-07-18 09:33:05 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:33:20 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='shift'], [class*='timer']
+2026-07-18 09:33:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search']
+2026-07-18 09:33:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search']
+2026-07-18 09:33:21 [INFO ] [AttendancePage] - Attendance searched: Arjun
+2026-07-18 09:33:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search']
+2026-07-18 09:33:21 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\05_Admin_Attendance_20260718_093321.png
+2026-07-18 09:33:21 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:33:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:23 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:33:29 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63987}, goog:processID: 18884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57a63e64b7a92d72659d2014c5caab93
+2026-07-18 09:33:29 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:29 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:33:29 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 09:33:29 [INFO ] [TestListeners] - ✅ TEST PASSED: test_05_AdminAttendance [25979 ms]
+2026-07-18 09:33:29 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:29 [INFO ] [TestListeners] - TEST START: test_06_AdminLeaveManagement
+2026-07-18 09:33:29 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:29 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Leave Management
+2026-07-18 09:33:29 [INFO ] [BaseTest] - ── Admin: Leave Management ──
+2026-07-18 09:33:29 [INFO ] [DashboardPage] - Navigating to module: Leave
+2026-07-18 09:33:29 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:32 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/leave'], a[href*='/employee/leave'], a[href*='leave']
+2026-07-18 09:33:32 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:32 [INFO ] [DashboardPage] - Navigation complete (sidebar): Leave
+2026-07-18 09:33:32 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 09:33:32 [WARN ] [AdminLeavePage] - No approve buttons found.
+2026-07-18 09:33:32 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toast, [class*='toast']
+2026-07-18 09:33:37 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\06_Admin_Leave_Management_20260718_093337.png
+2026-07-18 09:33:37 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:33:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:40 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:33:40 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:40 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 09:33:40 [INFO ] [TestListeners] - ✅ TEST PASSED: test_06_AdminLeaveManagement [10319 ms]
+2026-07-18 09:33:40 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:40 [INFO ] [TestListeners] - TEST START: test_07_AdminAnnouncements
+2026-07-18 09:33:40 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:40 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Announcements
+2026-07-18 09:33:40 [INFO ] [BaseTest] - ── Admin: Announcements ──
+2026-07-18 09:33:40 [INFO ] [DashboardPage] - Navigating to module: Announcements
+2026-07-18 09:33:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:42 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='announcements']
+2026-07-18 09:33:42 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:42 [INFO ] [DashboardPage] - Navigation complete (sidebar): Announcements
+2026-07-18 09:33:42 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card, .announcement-card, .notice-card
+2026-07-18 09:33:42 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card form
+2026-07-18 09:33:42 [INFO ] [AnnouncementsPage] - Announce compose form visible (inline): true
+2026-07-18 09:33:42 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card form
+2026-07-18 09:33:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Q3'], input[placeholder*='Title'], input[placeholder*='subject'], .card form input[type='text']:not([placeholder*='mock']):not([placeholder*='pdf'])
+2026-07-18 09:33:43 [INFO ] [AnnouncementsPage] - Announcement title set: QA Automation Test Notice
+2026-07-18 09:33:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea[placeholder*='detailed'], textarea[placeholder*='announcement'], textarea
+2026-07-18 09:33:44 [INFO ] [AnnouncementsPage] - Announcement content set.
+2026-07-18 09:33:44 [INFO ] [AnnouncementsPage] - Announcement form filled: QA Automation Test Notice
+2026-07-18 09:33:44 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'].btn.btn-primary, .card form button[type='submit']
+2026-07-18 09:33:45 [INFO ] [AnnouncementsPage] - Announcement submitted (Broadcast Circular clicked).
+2026-07-18 09:33:45 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 09:33:45 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 09:33:45 [INFO ] [AnnouncementsPage] - Searched announcements: QA Automation
+2026-07-18 09:33:45 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 09:33:45 [INFO ] [AnnouncementsPage] - Searched announcements: 
+2026-07-18 09:33:45 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\07_Admin_Announcements_20260718_093345.png
+2026-07-18 09:33:45 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:33:45 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:48 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:33:53 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63987}, goog:processID: 18884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57a63e64b7a92d72659d2014c5caab93
+2026-07-18 09:33:53 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:33:53 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 09:33:53 [INFO ] [TestListeners] - ✅ TEST PASSED: test_07_AdminAnnouncements [13384 ms]
+2026-07-18 09:33:54 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:54 [INFO ] [TestListeners] - TEST START: test_08_AdminProjects
+2026-07-18 09:33:54 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:33:54 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Projects
+2026-07-18 09:33:54 [INFO ] [BaseTest] - ── Admin: Projects ──
+2026-07-18 09:33:54 [INFO ] [DashboardPage] - Navigating to module: Projects
+2026-07-18 09:33:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='projects']
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:33:56 [INFO ] [DashboardPage] - Navigation complete (sidebar): Projects
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h1.topbar-title, h2
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .dept-bar-fill
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .badge
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toolbar button.btn-primary, .page-content > div > div > button.btn-primary, button.btn-primary
+2026-07-18 09:33:56 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .toolbar button.btn-primary, .page-content > div > div > button.btn-primary, button.btn-primary
+2026-07-18 09:33:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: form
+2026-07-18 09:33:57 [INFO ] [ProjectsPage] - New Project form opened.
+2026-07-18 09:33:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: form
+2026-07-18 09:33:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Project'], input[placeholder*='project'], input[placeholder*='Name']
+2026-07-18 09:34:02 [WARN ] [ProjectsPage] - Project name input not found.
+2026-07-18 09:34:02 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='date']
+2026-07-18 09:34:02 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea
+2026-07-18 09:34:03 [INFO ] [ProjectsPage] - Project form filled: Automation Regression Suite
+2026-07-18 09:34:03 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 09:34:03 [INFO ] [ProjectsPage] - Project form submitted.
+2026-07-18 09:34:03 [INFO ] [ProjectsPage] - Project status changed to: Completed
+2026-07-18 09:34:04 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\08_Admin_Projects_20260718_093403.png
+2026-07-18 09:34:04 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:34:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:06 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:34:06 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:06 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 09:34:06 [INFO ] [TestListeners] - ✅ TEST PASSED: test_08_AdminProjects [12090 ms]
+2026-07-18 09:34:06 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:06 [INFO ] [TestListeners] - TEST START: test_09_AdminPayroll
+2026-07-18 09:34:06 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:06 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Payroll
+2026-07-18 09:34:06 [INFO ] [BaseTest] - ── Admin: Payroll ──
+2026-07-18 09:34:06 [INFO ] [DashboardPage] - Navigating to module: Payroll
+2026-07-18 09:34:06 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:08 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='payroll']
+2026-07-18 09:34:09 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:09 [INFO ] [DashboardPage] - Navigation complete (sidebar): Payroll
+2026-07-18 09:34:09 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 09:34:09 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 09:34:09 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-primary.btn-sm
+2026-07-18 09:34:10 [WARN ] [PayrollPage] - Compliance run button not found.
+2026-07-18 09:34:10 [DEBUG] [PayrollPage] - No alert to dismiss.
+2026-07-18 09:34:10 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\09_Admin_Payroll_20260718_093410.png
+2026-07-18 09:34:10 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:34:10 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:13 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:34:13 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:13 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 09:34:13 [INFO ] [TestListeners] - ✅ TEST PASSED: test_09_AdminPayroll [6435 ms]
+2026-07-18 09:34:13 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:13 [INFO ] [TestListeners] - TEST START: test_10_AdminDocuments
+2026-07-18 09:34:13 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:13 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Documents
+2026-07-18 09:34:13 [INFO ] [BaseTest] - ── Admin: Documents ──
+2026-07-18 09:34:13 [INFO ] [DashboardPage] - Navigating to module: Documents
+2026-07-18 09:34:13 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:15 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='documents']
+2026-07-18 09:34:15 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:15 [INFO ] [DashboardPage] - Navigation complete (sidebar): Documents
+2026-07-18 09:34:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:34:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 09:34:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 09:34:15 [INFO ] [DocumentsPage] - Searched documents: Policy
+2026-07-18 09:34:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 09:34:16 [INFO ] [DocumentsPage] - Category filter applied: HR Policies
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 09:34:16 [INFO ] [DocumentsPage] - Category filter applied: All Folders
+2026-07-18 09:34:16 [INFO ] [DocumentsPage] - Download clicked for first document.
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toolbar button.btn-primary, .page-header button.btn-primary, .documents-header button.btn-primary, .documents-container > button.btn-primary
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .toolbar button.btn-primary, .page-header button.btn-primary, .documents-header button.btn-primary, .documents-container > button.btn-primary
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay
+2026-07-18 09:34:16 [INFO ] [DocumentsPage] - Upload document modal opened.
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='file'], input[placeholder*='name'], input[type='text']:first-of-type
+2026-07-18 09:34:16 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-content select:first-of-type
+2026-07-18 09:34:17 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea
+2026-07-18 09:34:17 [INFO ] [DocumentsPage] - Upload form filled: QA_Test_Framework_Guide
+2026-07-18 09:34:17 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], .modal-footer button.btn-primary
+2026-07-18 09:34:17 [INFO ] [DocumentsPage] - Upload submitted.
+2026-07-18 09:34:18 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\10_Admin_Documents_20260718_093417.png
+2026-07-18 09:34:18 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:34:18 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:18 [WARN ] [DashboardPage] - Modal overlay detected — dismissing before navigation.
+2026-07-18 09:34:18 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:18 [INFO ] [DashboardPage] - Modal overlay dismissed.
+2026-07-18 09:34:18 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:34:24 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63987}, goog:processID: 18884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57a63e64b7a92d72659d2014c5caab93
+2026-07-18 09:34:24 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:24 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:34:24 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 09:34:24 [INFO ] [TestListeners] - ✅ TEST PASSED: test_10_AdminDocuments [11242 ms]
+2026-07-18 09:34:25 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:25 [INFO ] [TestListeners] - TEST START: test_11_AdminSettings
+2026-07-18 09:34:25 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:25 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Settings
+2026-07-18 09:34:25 [INFO ] [BaseTest] - ── Admin: Settings ──
+2026-07-18 09:34:25 [INFO ] [DashboardPage] - Navigating to module: Settings
+2026-07-18 09:34:25 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:27 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='settings']
+2026-07-18 09:34:27 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:27 [INFO ] [DashboardPage] - Navigation complete (sidebar): Settings
+2026-07-18 09:34:27 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:34:27 [INFO ] [SettingsPage] - First toggle switch clicked.
+2026-07-18 09:34:27 [WARN ] [SettingsPage] - No save button found on Settings page.
+2026-07-18 09:34:27 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\11_Admin_Settings_20260718_093427.png
+2026-07-18 09:34:27 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 09:34:27 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:29 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:30 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 09:34:30 [INFO ] [TestListeners] - ✅ TEST PASSED: test_11_AdminSettings [5012 ms]
+2026-07-18 09:34:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:30 [INFO ] [TestListeners] - TEST START: test_12_AdminLogout
+2026-07-18 09:34:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:30 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Logout
+2026-07-18 09:34:30 [INFO ] [BaseTest] - ═══ ADMIN LOGOUT ═══
+2026-07-18 09:34:30 [INFO ] [DashboardPage] - Performing logout...
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .sidebar-user button[title='Log Out'], .sidebar button[title='Log Out']
+2026-07-18 09:34:30 [INFO ] [DashboardPage] - Logout clicked via sidebar button.
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for URL to contain: login
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:34:30 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 09:34:30 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\12_Admin_Logout_Success_20260718_093430.png
+2026-07-18 09:34:30 [INFO ] [TestListeners] - ✅ TEST PASSED: test_12_AdminLogout [245 ms]
+2026-07-18 09:34:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:30 [INFO ] [TestListeners] - TEST START: test_13_EmployeeLogin
+2026-07-18 09:34:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:30 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Login
+2026-07-18 09:34:30 [INFO ] [BaseTest] - ═══ PHASE 2: EMPLOYEE LOGIN ═══
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:34:30 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 09:34:30 [INFO ] [LoginPage] - Logging in as EMPLOYEE: EMP001
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:34:30 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 09:34:30 [INFO ] [LoginPage] - Selecting Employee role on login form...
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[id*='employee'], button[data-role='employee']
+2026-07-18 09:34:30 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='text'], input[placeholder*='ID'], input[placeholder*='id'], input[placeholder*='username'], input[name='username']
+2026-07-18 09:34:31 [INFO ] [LoginPage] - Entered username: EMP001
+2026-07-18 09:34:31 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:34:31 [INFO ] [LoginPage] - Entered password: [HIDDEN]
+2026-07-18 09:34:31 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 09:34:31 [INFO ] [LoginPage] - Clicked Sign In button.
+2026-07-18 09:34:31 [DEBUG] [WaitUtils] - Waiting for URL to contain: employee
+2026-07-18 09:34:32 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:34:32 [INFO ] [DashboardPage] - Dashboard/shell loaded: true
+2026-07-18 09:34:32 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\13_Employee_Login_Success_20260718_093432.png
+2026-07-18 09:34:32 [INFO ] [TestListeners] - ✅ TEST PASSED: test_13_EmployeeLogin [2137 ms]
+2026-07-18 09:34:33 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:33 [INFO ] [TestListeners] - TEST START: test_14_EmployeeHome
+2026-07-18 09:34:33 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:33 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Home Workspace
+2026-07-18 09:34:33 [INFO ] [BaseTest] - ── Employee: Home ──
+2026-07-18 09:34:33 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:34:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:35 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:34:35 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:35 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:34:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2, h1, [class*='greeting'], [class*='welcome']
+2026-07-18 09:34:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2, h1, [class*='greeting'], [class*='welcome']
+2026-07-18 09:34:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2, h1, [class*='greeting'], [class*='welcome']
+2026-07-18 09:34:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='timer'], [class*='shift']
+2026-07-18 09:34:35 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\14_Employee_Home_20260718_093435.png
+2026-07-18 09:34:35 [INFO ] [TestListeners] - ✅ TEST PASSED: test_14_EmployeeHome [2676 ms]
+2026-07-18 09:34:36 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:36 [INFO ] [TestListeners] - TEST START: test_15_EmployeeAttendance
+2026-07-18 09:34:36 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:34:36 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Attendance
+2026-07-18 09:34:36 [INFO ] [BaseTest] - ── Employee: Attendance ──
+2026-07-18 09:34:36 [INFO ] [DashboardPage] - Navigating to module: Attendance
+2026-07-18 09:34:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:34:38 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/attendance'], a[href*='attendance']
+2026-07-18 09:34:38 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:34:38 [INFO ] [DashboardPage] - Navigation complete (sidebar): Attendance
+2026-07-18 09:34:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:34:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='shift'], [class*='timer']
+2026-07-18 09:34:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='shift'], [class*='timer']
+2026-07-18 09:34:53 [INFO ] [AttendancePage] - Clock In clicked.
+2026-07-18 09:34:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='timer'], [class*='time'], [class*='clock-time']
+2026-07-18 09:34:59 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='timer'], [class*='time'], [class*='clock-time']
+2026-07-18 09:35:04 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\15_Employee_Attendance_20260718_093504.png
+2026-07-18 09:35:04 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:35:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:07 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:35:07 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:07 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:35:07 [INFO ] [TestListeners] - ✅ TEST PASSED: test_15_EmployeeAttendance [30985 ms]
+2026-07-18 09:35:07 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:07 [INFO ] [TestListeners] - TEST START: test_16_EmployeeLeaveRequest
+2026-07-18 09:35:07 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:07 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Leave Request
+2026-07-18 09:35:07 [INFO ] [BaseTest] - ── Employee: Leave Requests ──
+2026-07-18 09:35:07 [INFO ] [DashboardPage] - Navigating to module: Leave
+2026-07-18 09:35:07 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:10 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/leave'], a[href*='/employee/leave'], a[href*='leave']
+2026-07-18 09:35:10 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:10 [INFO ] [DashboardPage] - Navigation complete (sidebar): Leave
+2026-07-18 09:35:10 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h1.topbar-title, h3, .card-title
+2026-07-18 09:35:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: button.btn-primary, .toolbar button.btn-primary
+2026-07-18 09:35:15 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-primary, .toolbar button.btn-primary
+2026-07-18 09:35:15 [INFO ] [EmployeeLeavePage] - Apply leave form opened.
+2026-07-18 09:35:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card form, form
+2026-07-18 09:35:21 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\16_Employee_Leave_Request_20260718_093521.png
+2026-07-18 09:35:21 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:35:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:23 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:35:23 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:23 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:35:23 [INFO ] [TestListeners] - ✅ TEST PASSED: test_16_EmployeeLeaveRequest [16023 ms]
+2026-07-18 09:35:24 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:24 [INFO ] [TestListeners] - TEST START: test_17_EmployeeAnnouncements
+2026-07-18 09:35:24 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:24 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Announcements
+2026-07-18 09:35:24 [INFO ] [BaseTest] - ── Employee: Announcements ──
+2026-07-18 09:35:24 [INFO ] [DashboardPage] - Navigating to module: Announcements
+2026-07-18 09:35:24 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:26 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='announcements']
+2026-07-18 09:35:26 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:26 [INFO ] [DashboardPage] - Navigation complete (sidebar): Announcements
+2026-07-18 09:35:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card, .announcement-card, .notice-card
+2026-07-18 09:35:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 09:35:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 09:35:26 [INFO ] [AnnouncementsPage] - Searched announcements: Welcome
+2026-07-18 09:35:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 09:35:26 [INFO ] [AnnouncementsPage] - Searched announcements: 
+2026-07-18 09:35:27 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\17_Employee_Announcements_20260718_093526.png
+2026-07-18 09:35:27 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:35:27 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:29 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:35:34 [WARN ] [DashboardPage] - Sidebar click failed for Home — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='home'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63987}, goog:processID: 18884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57a63e64b7a92d72659d2014c5caab93
+2026-07-18 09:35:35 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:35:35 [INFO ] [DashboardPage] - Navigation complete (direct URL): Home → http://localhost:5173/employee/home
+2026-07-18 09:35:35 [INFO ] [TestListeners] - ✅ TEST PASSED: test_17_EmployeeAnnouncements [10856 ms]
+2026-07-18 09:35:35 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:35 [INFO ] [TestListeners] - TEST START: test_18_EmployeeProjects
+2026-07-18 09:35:35 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:35 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Projects
+2026-07-18 09:35:35 [INFO ] [BaseTest] - ── Employee: Projects ──
+2026-07-18 09:35:35 [INFO ] [DashboardPage] - Navigating to module: Projects
+2026-07-18 09:35:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:37 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='projects']
+2026-07-18 09:35:37 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:37 [INFO ] [DashboardPage] - Navigation complete (sidebar): Projects
+2026-07-18 09:35:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h1.topbar-title, h2
+2026-07-18 09:35:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .dept-bar-fill
+2026-07-18 09:35:37 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .badge
+2026-07-18 09:35:38 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\18_Employee_Projects_20260718_093537.png
+2026-07-18 09:35:38 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:35:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:40 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:35:40 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:40 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:35:40 [INFO ] [TestListeners] - ✅ TEST PASSED: test_18_EmployeeProjects [5038 ms]
+2026-07-18 09:35:40 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:40 [INFO ] [TestListeners] - TEST START: test_19_EmployeePayslips
+2026-07-18 09:35:40 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:40 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Payslips
+2026-07-18 09:35:40 [INFO ] [BaseTest] - ── Employee: Payslips ──
+2026-07-18 09:35:40 [INFO ] [DashboardPage] - Navigating to module: Payroll
+2026-07-18 09:35:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:43 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='payroll']
+2026-07-18 09:35:43 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:43 [INFO ] [DashboardPage] - Navigation complete (sidebar): Payroll
+2026-07-18 09:35:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 09:35:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap, .card
+2026-07-18 09:35:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 09:35:44 [INFO ] [PayrollPage] - Payslip 'View Breakdown' clicked.
+2026-07-18 09:35:44 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay
+2026-07-18 09:35:44 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-title
+2026-07-18 09:35:44 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-body div[style*='success'], .modal-body [style*='success'], .modal-body strong
+2026-07-18 09:35:44 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .modal-footer button.btn-secondary
+2026-07-18 09:35:44 [INFO ] [PayrollPage] - Payslip modal closed.
+2026-07-18 09:35:44 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\19_Employee_Payslips_20260718_093544.png
+2026-07-18 09:35:44 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:35:44 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:46 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:35:46 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:46 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:35:46 [INFO ] [TestListeners] - ✅ TEST PASSED: test_19_EmployeePayslips [5824 ms]
+2026-07-18 09:35:47 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:47 [INFO ] [TestListeners] - TEST START: test_20_EmployeeDocuments
+2026-07-18 09:35:47 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:47 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Company Documents
+2026-07-18 09:35:47 [INFO ] [BaseTest] - ── Employee: Company Documents ──
+2026-07-18 09:35:47 [INFO ] [DashboardPage] - Navigating to module: Documents
+2026-07-18 09:35:47 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='documents']
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:49 [INFO ] [DashboardPage] - Navigation complete (sidebar): Documents
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 09:35:49 [INFO ] [DocumentsPage] - Searched documents: Benefits
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 09:35:49 [INFO ] [DocumentsPage] - Category filter applied: Technical Guidelines
+2026-07-18 09:35:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 09:35:50 [INFO ] [DocumentsPage] - Category filter applied: All Folders
+2026-07-18 09:35:50 [INFO ] [DocumentsPage] - Download clicked for first document.
+2026-07-18 09:35:50 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\20_Employee_Documents_20260718_093550.png
+2026-07-18 09:35:50 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:35:50 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:35:52 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:35:58 [WARN ] [DashboardPage] - Sidebar click failed for Home — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='home'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63987}, goog:processID: 18884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63987/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57a63e64b7a92d72659d2014c5caab93
+2026-07-18 09:35:58 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:35:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 09:35:58 [INFO ] [DashboardPage] - Navigation complete (direct URL): Home → http://localhost:5173/employee/home
+2026-07-18 09:35:58 [INFO ] [TestListeners] - ✅ TEST PASSED: test_20_EmployeeDocuments [11262 ms]
+2026-07-18 09:35:58 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:58 [INFO ] [TestListeners] - TEST START: test_21_EmployeeProfile
+2026-07-18 09:35:58 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:35:58 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Profile
+2026-07-18 09:35:58 [INFO ] [BaseTest] - ── Employee: Profile ──
+2026-07-18 09:35:58 [INFO ] [DashboardPage] - Navigating to module: Profile
+2026-07-18 09:35:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:36:00 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='profile']
+2026-07-18 09:36:01 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:36:01 [INFO ] [DashboardPage] - Navigation complete (sidebar): Profile
+2026-07-18 09:36:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card, .profile-card
+2026-07-18 09:36:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .avatar, .profile-avatar, [class*='avatar']
+2026-07-18 09:36:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .profile-name, h3, h2
+2026-07-18 09:36:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .profile-card button.btn-primary, .card button.btn-primary, .main-content button.btn-primary, button[class*='primary']
+2026-07-18 09:36:06 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\21_Employee_Profile_20260718_093606.png
+2026-07-18 09:36:06 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:36:06 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:36:08 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:36:08 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:36:08 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:36:08 [INFO ] [TestListeners] - ✅ TEST PASSED: test_21_EmployeeProfile [10084 ms]
+2026-07-18 09:36:09 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:36:09 [INFO ] [TestListeners] - TEST START: test_22_EmployeeSettings
+2026-07-18 09:36:09 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:36:09 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Settings
+2026-07-18 09:36:09 [INFO ] [BaseTest] - ── Employee: Settings ──
+2026-07-18 09:36:09 [INFO ] [DashboardPage] - Navigating to module: Settings
+2026-07-18 09:36:09 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:36:11 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='settings']
+2026-07-18 09:36:11 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:36:11 [INFO ] [DashboardPage] - Navigation complete (sidebar): Settings
+2026-07-18 09:36:11 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 09:36:11 [INFO ] [SettingsPage] - First toggle switch clicked.
+2026-07-18 09:36:11 [WARN ] [SettingsPage] - No save button found on Settings page.
+2026-07-18 09:36:11 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\22_Employee_Settings_20260718_093611.png
+2026-07-18 09:36:12 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 09:36:12 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 09:36:14 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 09:36:14 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 09:36:14 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 09:36:14 [INFO ] [TestListeners] - ✅ TEST PASSED: test_22_EmployeeSettings [4917 ms]
+2026-07-18 09:36:14 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:36:14 [INFO ] [TestListeners] - TEST START: test_23_EmployeeLogout
+2026-07-18 09:36:14 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 09:36:14 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Logout
+2026-07-18 09:36:14 [INFO ] [BaseTest] - ═══ EMPLOYEE LOGOUT ═══
+2026-07-18 09:36:14 [INFO ] [DashboardPage] - Performing logout...
+2026-07-18 09:36:14 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .sidebar-user button[title='Log Out'], .sidebar button[title='Log Out']
+2026-07-18 09:36:14 [INFO ] [DashboardPage] - Logout clicked via sidebar button.
+2026-07-18 09:36:14 [DEBUG] [WaitUtils] - Waiting for URL to contain: login
+2026-07-18 09:36:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 09:36:14 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 09:36:14 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 11\com.employee.automation\reports\screenshots\23_Employee_Logout_Success_20260718_093614.png
+2026-07-18 09:36:14 [INFO ] [BaseTest] - ═══════════════════════════════════════════════════════
+2026-07-18 09:36:14 [INFO ] [BaseTest] -   ALL 23 EMS AUTOMATION TESTS COMPLETED SUCCESSFULLY
+2026-07-18 09:36:14 [INFO ] [BaseTest] - ═══════════════════════════════════════════════════════
+2026-07-18 09:36:14 [INFO ] [TestListeners] - ✅ TEST PASSED: test_23_EmployeeLogout [300 ms]
+2026-07-18 09:36:15 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:36:15 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Complete
+2026-07-18 09:36:15 [INFO ] [BaseTest] - ============================================================
+2026-07-18 09:36:16 [INFO ] [ExtentManager] - ExtentReports flushed successfully.
+2026-07-18 09:36:16 [INFO ] [DriverFactory] - Quitting ChromeDriver...
+2026-07-18 09:36:16 [INFO ] [DriverFactory] - ChromeDriver terminated.
+2026-07-18 10:21:32 [INFO ] [ConfigReader] - Loaded config.properties from: config.properties
+2026-07-18 10:21:33 [INFO ] [BaseTest] - ============================================================
+2026-07-18 10:21:33 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Starting
+2026-07-18 10:21:33 [INFO ] [BaseTest] - ============================================================
+2026-07-18 10:21:33 [INFO ] [DriverFactory] - Initializing ChromeDriver via WebDriverManager...
+2026-07-18 10:21:36 [INFO ] [DriverFactory] - ChromeDriver initialized successfully.
+2026-07-18 10:21:37 [INFO ] [ExtentManager] - ExtentReports initialized. Report path: reports\EMS_Report_2026-07-18_10-21-36.html
+2026-07-18 10:21:37 [INFO ] [BaseTest] - Browser launched. Navigating to: http://localhost:5173
+2026-07-18 10:21:40 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:21:40 [INFO ] [TestListeners] - TEST START: test_01_AdminLogin
+2026-07-18 10:21:40 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:21:40 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Login
+2026-07-18 10:21:40 [INFO ] [BaseTest] - ═══ PHASE 1: ADMIN LOGIN ═══
+2026-07-18 10:21:40 [DEBUG] [BaseTest] - Navigating to: http://localhost:5173/login
+2026-07-18 10:21:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:21:40 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 10:21:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 10:21:40 [INFO ] [LoginPage] - Logging in as ADMIN: admin
+2026-07-18 10:21:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:21:40 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 10:21:40 [INFO ] [LoginPage] - Selecting Admin role on login form...
+2026-07-18 10:21:40 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[id*='admin'], button[data-role='admin']
+2026-07-18 10:21:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='text'], input[placeholder*='ID'], input[placeholder*='id'], input[placeholder*='username'], input[name='username']
+2026-07-18 10:21:41 [INFO ] [LoginPage] - Entered username: admin
+2026-07-18 10:21:41 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:21:41 [INFO ] [LoginPage] - Entered password: [HIDDEN]
+2026-07-18 10:21:41 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 10:21:41 [INFO ] [LoginPage] - Clicked Sign In button.
+2026-07-18 10:21:41 [DEBUG] [WaitUtils] - Waiting for URL to contain: admin
+2026-07-18 10:21:42 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:21:42 [INFO ] [DashboardPage] - Dashboard/shell loaded: true
+2026-07-18 10:21:43 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\01_Admin_Login_Success_20260718_102142.png
+2026-07-18 10:21:43 [INFO ] [TestListeners] - ✅ TEST PASSED: test_01_AdminLogin [3180 ms]
+2026-07-18 10:21:43 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:21:43 [INFO ] [TestListeners] - TEST START: test_02_AdminDashboard
+2026-07-18 10:21:43 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:21:43 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Dashboard
+2026-07-18 10:21:43 [INFO ] [BaseTest] - ── Admin Dashboard ──
+2026-07-18 10:21:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .topbar-avatar-wrap, .user-badge, .topbar-user
+2026-07-18 10:21:43 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .bell-btn, button[aria-label*='notification']
+2026-07-18 10:21:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar-search-box input, .sidebar input[placeholder*='Search'], .search-panel input
+2026-07-18 10:21:49 [INFO ] [DashboardPage] - Searched sidebar: Employee
+2026-07-18 10:21:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar-search-box input, .sidebar input[placeholder*='Search'], .search-panel input
+2026-07-18 10:21:49 [INFO ] [DashboardPage] - Searched sidebar: 
+2026-07-18 10:21:49 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\02_Admin_Dashboard_20260718_102149.png
+2026-07-18 10:21:49 [INFO ] [TestListeners] - ✅ TEST PASSED: test_02_AdminDashboard [6348 ms]
+2026-07-18 10:21:50 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:21:50 [INFO ] [TestListeners] - TEST START: test_03_AdminEmployeeManagement
+2026-07-18 10:21:50 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:21:50 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Employee Management
+2026-07-18 10:21:50 [INFO ] [BaseTest] - ── Admin: Employee Management ──
+2026-07-18 10:21:50 [INFO ] [DashboardPage] - Navigating to module: Employees
+2026-07-18 10:21:50 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:21:52 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/employees'], a[href*='employees']
+2026-07-18 10:21:52 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:21:52 [INFO ] [DashboardPage] - Navigation complete (sidebar): Employees
+2026-07-18 10:21:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 10:21:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 10:21:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: button.btn-primary, button[class*='primary']
+2026-07-18 10:21:52 [INFO ] [AdminEmployeesPage] - Searching for employee: Arjun
+2026-07-18 10:21:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 10:21:53 [INFO ] [AdminEmployeesPage] - Searching for employee: xyz_no_match_xyz
+2026-07-18 10:21:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 10:21:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 10:21:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .pagination-info, .page-info, span:has-text('Page')
+2026-07-18 10:21:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .pagination button[aria-label*='Next'], .pagination-btn:last-child, button:has-text('›'), button[disabled*='false'] ~ button
+2026-07-18 10:21:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 10:21:53 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-primary, button[class*='primary']
+2026-07-18 10:21:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:21:54 [INFO ] [AdminEmployeesPage] - Add Employee modal opened.
+2026-07-18 10:21:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:21:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='name']
+2026-07-18 10:21:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='email']
+2026-07-18 10:21:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='phone']
+2026-07-18 10:21:55 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='department']
+2026-07-18 10:21:55 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='jobTitle']
+2026-07-18 10:21:55 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='salary']
+2026-07-18 10:21:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='status']
+2026-07-18 10:21:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='location']
+2026-07-18 10:21:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='joinDate']
+2026-07-18 10:21:56 [INFO ] [AdminEmployeesPage] - Date field set via JS: 2026-07-01
+2026-07-18 10:21:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='role']
+2026-07-18 10:21:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='password']
+2026-07-18 10:21:57 [INFO ] [AdminEmployeesPage] - Filled employee form for: Test Automation User
+2026-07-18 10:21:57 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], .modal-footer button.btn-primary
+2026-07-18 10:21:57 [INFO ] [AdminEmployeesPage] - Save Employee clicked.
+2026-07-18 10:21:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:21:57 [WARN ] [AdminEmployeesPage] - Residual modal detected after save — closing.
+2026-07-18 10:21:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:21:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .close-btn, .modal button[class*='close']
+2026-07-18 10:21:59 [INFO ] [AdminEmployeesPage] - Modal closed.
+2026-07-18 10:21:59 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toast, .toast-message, [class*='toast']
+2026-07-18 10:22:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:04 [INFO ] [AdminEmployeesPage] - Edit modal opened for first employee.
+2026-07-18 10:22:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='jobTitle']
+2026-07-18 10:22:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='jobTitle']
+2026-07-18 10:22:05 [WARN ] [AdminEmployeesPage] - Select not found or option unavailable: By.cssSelector: select[name='jobTitle'] / Senior Engineer
+2026-07-18 10:22:05 [INFO ] [AdminEmployeesPage] - Job title updated (fallback select) to: Senior Engineer
+2026-07-18 10:22:05 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], .modal-footer button.btn-primary
+2026-07-18 10:22:05 [INFO ] [AdminEmployeesPage] - Save Employee clicked.
+2026-07-18 10:22:05 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:06 [WARN ] [AdminEmployeesPage] - Residual modal detected after save — closing.
+2026-07-18 10:22:06 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:06 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .close-btn, .modal button[class*='close']
+2026-07-18 10:22:07 [INFO ] [AdminEmployeesPage] - Modal closed.
+2026-07-18 10:22:07 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='search']
+2026-07-18 10:22:07 [INFO ] [AdminEmployeesPage] - Delete confirmation modal triggered.
+2026-07-18 10:22:07 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .confirm-modal button.btn-danger, .modal-footer button.btn-danger, button.btn-danger
+2026-07-18 10:22:07 [INFO ] [AdminEmployeesPage] - Delete confirmed.
+2026-07-18 10:22:08 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\03_Admin_Employee_Management_20260718_102207.png
+2026-07-18 10:22:08 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:22:08 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:08 [WARN ] [DashboardPage] - Modal overlay detected — dismissing before navigation.
+2026-07-18 10:22:08 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:09 [INFO ] [DashboardPage] - Modal overlay dismissed.
+2026-07-18 10:22:09 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:22:15 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60605}, goog:processID: 16696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60605/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 632934c81161687e30160e3528afe187
+2026-07-18 10:22:15 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:22:15 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 10:22:15 [INFO ] [TestListeners] - ✅ TEST PASSED: test_03_AdminEmployeeManagement [25297 ms]
+2026-07-18 10:22:15 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:15 [INFO ] [TestListeners] - TEST START: test_04_AdminDepartments
+2026-07-18 10:22:15 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:15 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Departments
+2026-07-18 10:22:15 [INFO ] [BaseTest] - ── Admin: Departments ──
+2026-07-18 10:22:15 [INFO ] [DashboardPage] - Navigating to module: Departments
+2026-07-18 10:22:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:17 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/departments'], a[href*='departments']
+2026-07-18 10:22:18 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:18 [INFO ] [DashboardPage] - Navigation complete (sidebar): Departments
+2026-07-18 10:22:18 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:22:18 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 10:22:18 [INFO ] [DepartmentsPage] - Drilled into first department.
+2026-07-18 10:22:18 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 10:22:18 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-secondary
+2026-07-18 10:22:18 [INFO ] [DepartmentsPage] - Back to department catalog.
+2026-07-18 10:22:19 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\04_Admin_Departments_20260718_102218.png
+2026-07-18 10:22:19 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:22:19 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:21 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:22:21 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:21 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 10:22:21 [INFO ] [TestListeners] - ✅ TEST PASSED: test_04_AdminDepartments [5525 ms]
+2026-07-18 10:22:21 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:21 [INFO ] [TestListeners] - TEST START: test_05_AdminAttendance
+2026-07-18 10:22:21 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:21 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Attendance
+2026-07-18 10:22:21 [INFO ] [BaseTest] - ── Admin: Attendance Monitor ──
+2026-07-18 10:22:21 [INFO ] [DashboardPage] - Navigating to module: Attendance
+2026-07-18 10:22:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:23 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/attendance'], a[href*='attendance']
+2026-07-18 10:22:23 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:23 [INFO ] [DashboardPage] - Navigation complete (sidebar): Attendance
+2026-07-18 10:22:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:22:39 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='shift'], [class*='timer']
+2026-07-18 10:22:39 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search']
+2026-07-18 10:22:39 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search']
+2026-07-18 10:22:39 [INFO ] [AttendancePage] - Attendance searched: Arjun
+2026-07-18 10:22:39 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search']
+2026-07-18 10:22:40 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\05_Admin_Attendance_20260718_102240.png
+2026-07-18 10:22:40 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:22:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:42 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:22:47 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60605}, goog:processID: 16696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60605/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 632934c81161687e30160e3528afe187
+2026-07-18 10:22:47 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:47 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:22:47 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 10:22:47 [INFO ] [TestListeners] - ✅ TEST PASSED: test_05_AdminAttendance [26308 ms]
+2026-07-18 10:22:48 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:48 [INFO ] [TestListeners] - TEST START: test_06_AdminLeaveManagement
+2026-07-18 10:22:48 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:48 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Leave Management
+2026-07-18 10:22:48 [INFO ] [BaseTest] - ── Admin: Leave Management ──
+2026-07-18 10:22:48 [INFO ] [DashboardPage] - Navigating to module: Leave
+2026-07-18 10:22:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:50 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/leave'], a[href*='/employee/leave'], a[href*='leave']
+2026-07-18 10:22:50 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:50 [INFO ] [DashboardPage] - Navigation complete (sidebar): Leave
+2026-07-18 10:22:50 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table, table
+2026-07-18 10:22:50 [WARN ] [AdminLeavePage] - No approve buttons found.
+2026-07-18 10:22:50 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toast, [class*='toast']
+2026-07-18 10:22:56 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\06_Admin_Leave_Management_20260718_102255.png
+2026-07-18 10:22:56 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:22:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:22:58 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:22:58 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:22:58 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 10:22:58 [INFO ] [TestListeners] - ✅ TEST PASSED: test_06_AdminLeaveManagement [10194 ms]
+2026-07-18 10:22:58 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:58 [INFO ] [TestListeners] - TEST START: test_07_AdminAnnouncements
+2026-07-18 10:22:58 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:22:58 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Announcements
+2026-07-18 10:22:58 [INFO ] [BaseTest] - ── Admin: Announcements ──
+2026-07-18 10:22:58 [INFO ] [DashboardPage] - Navigating to module: Announcements
+2026-07-18 10:22:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:00 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='announcements']
+2026-07-18 10:23:01 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:01 [INFO ] [DashboardPage] - Navigation complete (sidebar): Announcements
+2026-07-18 10:23:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card, .announcement-card, .notice-card
+2026-07-18 10:23:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card form
+2026-07-18 10:23:01 [INFO ] [AnnouncementsPage] - Announce compose form visible (inline): true
+2026-07-18 10:23:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card form
+2026-07-18 10:23:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Q3'], input[placeholder*='Title'], input[placeholder*='subject'], .card form input[type='text']:not([placeholder*='mock']):not([placeholder*='pdf'])
+2026-07-18 10:23:01 [INFO ] [AnnouncementsPage] - Announcement title set: QA Automation Test Notice
+2026-07-18 10:23:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea[placeholder*='detailed'], textarea[placeholder*='announcement'], textarea
+2026-07-18 10:23:02 [INFO ] [AnnouncementsPage] - Announcement content set.
+2026-07-18 10:23:02 [INFO ] [AnnouncementsPage] - Announcement form filled: QA Automation Test Notice
+2026-07-18 10:23:02 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'].btn.btn-primary, .card form button[type='submit']
+2026-07-18 10:23:03 [INFO ] [AnnouncementsPage] - Announcement submitted (Broadcast Circular clicked).
+2026-07-18 10:23:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 10:23:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 10:23:03 [INFO ] [AnnouncementsPage] - Searched announcements: QA Automation
+2026-07-18 10:23:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 10:23:03 [INFO ] [AnnouncementsPage] - Searched announcements: 
+2026-07-18 10:23:03 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\07_Admin_Announcements_20260718_102303.png
+2026-07-18 10:23:03 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:23:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:05 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:23:11 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60605}, goog:processID: 16696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60605/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 632934c81161687e30160e3528afe187
+2026-07-18 10:23:11 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:11 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:23:11 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 10:23:11 [INFO ] [TestListeners] - ✅ TEST PASSED: test_07_AdminAnnouncements [12801 ms]
+2026-07-18 10:23:11 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:11 [INFO ] [TestListeners] - TEST START: test_08_AdminProjects
+2026-07-18 10:23:11 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:11 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Projects
+2026-07-18 10:23:11 [INFO ] [BaseTest] - ── Admin: Projects ──
+2026-07-18 10:23:11 [INFO ] [DashboardPage] - Navigating to module: Projects
+2026-07-18 10:23:11 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:13 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='projects']
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:14 [INFO ] [DashboardPage] - Navigation complete (sidebar): Projects
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h1.topbar-title, h2
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .dept-bar-fill
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .badge
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toolbar button.btn-primary, .page-content > div > div > button.btn-primary, button.btn-primary
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .toolbar button.btn-primary, .page-content > div > div > button.btn-primary, button.btn-primary
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: form
+2026-07-18 10:23:14 [INFO ] [ProjectsPage] - New Project form opened.
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: form
+2026-07-18 10:23:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Project'], input[placeholder*='project'], input[placeholder*='Name']
+2026-07-18 10:23:19 [WARN ] [ProjectsPage] - Project name input not found.
+2026-07-18 10:23:19 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='date']
+2026-07-18 10:23:20 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea
+2026-07-18 10:23:20 [INFO ] [ProjectsPage] - Project form filled: Automation Regression Suite
+2026-07-18 10:23:20 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 10:23:20 [INFO ] [ProjectsPage] - Project form submitted.
+2026-07-18 10:23:21 [INFO ] [ProjectsPage] - Project status changed to: Completed
+2026-07-18 10:23:21 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\08_Admin_Projects_20260718_102321.png
+2026-07-18 10:23:21 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:23:21 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:23 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:23:23 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:23 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 10:23:23 [INFO ] [TestListeners] - ✅ TEST PASSED: test_08_AdminProjects [11948 ms]
+2026-07-18 10:23:24 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:24 [INFO ] [TestListeners] - TEST START: test_09_AdminPayroll
+2026-07-18 10:23:24 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:24 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Payroll
+2026-07-18 10:23:24 [INFO ] [BaseTest] - ── Admin: Payroll ──
+2026-07-18 10:23:24 [INFO ] [DashboardPage] - Navigating to module: Payroll
+2026-07-18 10:23:24 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:26 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='payroll']
+2026-07-18 10:23:26 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:26 [INFO ] [DashboardPage] - Navigation complete (sidebar): Payroll
+2026-07-18 10:23:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 10:23:26 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 10:23:27 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-primary.btn-sm
+2026-07-18 10:23:28 [WARN ] [PayrollPage] - Compliance run button not found.
+2026-07-18 10:23:28 [DEBUG] [PayrollPage] - No alert to dismiss.
+2026-07-18 10:23:28 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\09_Admin_Payroll_20260718_102328.png
+2026-07-18 10:23:28 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:23:28 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:30 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:23:30 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:30 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 10:23:30 [INFO ] [TestListeners] - ✅ TEST PASSED: test_09_AdminPayroll [6486 ms]
+2026-07-18 10:23:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:30 [INFO ] [TestListeners] - TEST START: test_10_AdminDocuments
+2026-07-18 10:23:30 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:30 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Documents
+2026-07-18 10:23:30 [INFO ] [BaseTest] - ── Admin: Documents ──
+2026-07-18 10:23:30 [INFO ] [DashboardPage] - Navigating to module: Documents
+2026-07-18 10:23:30 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='documents']
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:33 [INFO ] [DashboardPage] - Navigation complete (sidebar): Documents
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 10:23:33 [INFO ] [DocumentsPage] - Searched documents: Policy
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 10:23:33 [INFO ] [DocumentsPage] - Category filter applied: HR Policies
+2026-07-18 10:23:33 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 10:23:33 [INFO ] [DocumentsPage] - Category filter applied: All Folders
+2026-07-18 10:23:34 [INFO ] [DocumentsPage] - Download clicked for first document.
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toolbar button.btn-primary, .page-header button.btn-primary, .documents-header button.btn-primary, .documents-container > button.btn-primary
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .toolbar button.btn-primary, .page-header button.btn-primary, .documents-header button.btn-primary, .documents-container > button.btn-primary
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay
+2026-07-18 10:23:34 [INFO ] [DocumentsPage] - Upload document modal opened.
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='file'], input[placeholder*='name'], input[type='text']:first-of-type
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-content select:first-of-type
+2026-07-18 10:23:34 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea
+2026-07-18 10:23:35 [INFO ] [DocumentsPage] - Upload form filled: QA_Test_Framework_Guide
+2026-07-18 10:23:35 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], .modal-footer button.btn-primary
+2026-07-18 10:23:35 [INFO ] [DocumentsPage] - Upload submitted.
+2026-07-18 10:23:35 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\10_Admin_Documents_20260718_102335.png
+2026-07-18 10:23:35 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:23:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:35 [WARN ] [DashboardPage] - Modal overlay detected — dismissing before navigation.
+2026-07-18 10:23:36 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:36 [INFO ] [DashboardPage] - Modal overlay dismissed.
+2026-07-18 10:23:36 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:23:41 [WARN ] [DashboardPage] - Sidebar click failed for Dashboard — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60605}, goog:processID: 16696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60605/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 632934c81161687e30160e3528afe187
+2026-07-18 10:23:42 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:42 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:23:42 [INFO ] [DashboardPage] - Navigation complete (direct URL): Dashboard → http://localhost:5173/admin/dashboard
+2026-07-18 10:23:42 [INFO ] [TestListeners] - ✅ TEST PASSED: test_10_AdminDocuments [11248 ms]
+2026-07-18 10:23:42 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:42 [INFO ] [TestListeners] - TEST START: test_11_AdminSettings
+2026-07-18 10:23:42 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:42 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Settings
+2026-07-18 10:23:42 [INFO ] [BaseTest] - ── Admin: Settings ──
+2026-07-18 10:23:42 [INFO ] [DashboardPage] - Navigating to module: Settings
+2026-07-18 10:23:42 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:44 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='settings']
+2026-07-18 10:23:44 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:44 [INFO ] [DashboardPage] - Navigation complete (sidebar): Settings
+2026-07-18 10:23:44 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:23:44 [INFO ] [SettingsPage] - First toggle switch clicked.
+2026-07-18 10:23:45 [WARN ] [SettingsPage] - No save button found on Settings page.
+2026-07-18 10:23:45 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\11_Admin_Settings_20260718_102345.png
+2026-07-18 10:23:45 [INFO ] [DashboardPage] - Navigating to module: Dashboard
+2026-07-18 10:23:45 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:47 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/dashboard'], a[href*='dashboard']
+2026-07-18 10:23:47 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:47 [INFO ] [DashboardPage] - Navigation complete (sidebar): Dashboard
+2026-07-18 10:23:47 [INFO ] [TestListeners] - ✅ TEST PASSED: test_11_AdminSettings [5081 ms]
+2026-07-18 10:23:47 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:47 [INFO ] [TestListeners] - TEST START: test_12_AdminLogout
+2026-07-18 10:23:47 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:47 [INFO ] [ExtentManager] - ExtentTest created: [Admin] Admin Logout
+2026-07-18 10:23:47 [INFO ] [BaseTest] - ═══ ADMIN LOGOUT ═══
+2026-07-18 10:23:47 [INFO ] [DashboardPage] - Performing logout...
+2026-07-18 10:23:47 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .sidebar-user button[title='Log Out'], .sidebar button[title='Log Out']
+2026-07-18 10:23:48 [INFO ] [DashboardPage] - Logout clicked via sidebar button.
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for URL to contain: login
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:23:48 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 10:23:48 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\12_Admin_Logout_Success_20260718_102348.png
+2026-07-18 10:23:48 [INFO ] [TestListeners] - ✅ TEST PASSED: test_12_AdminLogout [327 ms]
+2026-07-18 10:23:48 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:48 [INFO ] [TestListeners] - TEST START: test_13_EmployeeLogin
+2026-07-18 10:23:48 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:48 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Login
+2026-07-18 10:23:48 [INFO ] [BaseTest] - ═══ PHASE 2: EMPLOYEE LOGIN ═══
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:23:48 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 10:23:48 [INFO ] [LoginPage] - Logging in as EMPLOYEE: EMP001
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:23:48 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 10:23:48 [INFO ] [LoginPage] - Selecting Employee role on login form...
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[id*='employee'], button[data-role='employee']
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='text'], input[placeholder*='ID'], input[placeholder*='id'], input[placeholder*='username'], input[name='username']
+2026-07-18 10:23:48 [INFO ] [LoginPage] - Entered username: EMP001
+2026-07-18 10:23:48 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:23:49 [INFO ] [LoginPage] - Entered password: [HIDDEN]
+2026-07-18 10:23:49 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 10:23:49 [INFO ] [LoginPage] - Clicked Sign In button.
+2026-07-18 10:23:49 [DEBUG] [WaitUtils] - Waiting for URL to contain: employee
+2026-07-18 10:23:50 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:23:50 [INFO ] [DashboardPage] - Dashboard/shell loaded: true
+2026-07-18 10:23:50 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\13_Employee_Login_Success_20260718_102350.png
+2026-07-18 10:23:50 [INFO ] [TestListeners] - ✅ TEST PASSED: test_13_EmployeeLogin [2350 ms]
+2026-07-18 10:23:51 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:51 [INFO ] [TestListeners] - TEST START: test_14_EmployeeHome
+2026-07-18 10:23:51 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:51 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Home Workspace
+2026-07-18 10:23:51 [INFO ] [BaseTest] - ── Employee: Home ──
+2026-07-18 10:23:51 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:23:51 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:53 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:23:53 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:53 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:23:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2, h1, [class*='greeting'], [class*='welcome']
+2026-07-18 10:23:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2, h1, [class*='greeting'], [class*='welcome']
+2026-07-18 10:23:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2, h1, [class*='greeting'], [class*='welcome']
+2026-07-18 10:23:53 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='timer'], [class*='shift']
+2026-07-18 10:23:53 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\14_Employee_Home_20260718_102353.png
+2026-07-18 10:23:53 [INFO ] [TestListeners] - ✅ TEST PASSED: test_14_EmployeeHome [2808 ms]
+2026-07-18 10:23:54 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:54 [INFO ] [TestListeners] - TEST START: test_15_EmployeeAttendance
+2026-07-18 10:23:54 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:23:54 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Attendance
+2026-07-18 10:23:54 [INFO ] [BaseTest] - ── Employee: Attendance ──
+2026-07-18 10:23:54 [INFO ] [DashboardPage] - Navigating to module: Attendance
+2026-07-18 10:23:54 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:23:56 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/attendance'], a[href*='attendance']
+2026-07-18 10:23:56 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:23:56 [INFO ] [DashboardPage] - Navigation complete (sidebar): Attendance
+2026-07-18 10:23:56 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:24:11 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='shift'], [class*='timer']
+2026-07-18 10:24:11 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='clock'], [class*='shift'], [class*='timer']
+2026-07-18 10:24:11 [INFO ] [AttendancePage] - Clock In clicked.
+2026-07-18 10:24:11 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='timer'], [class*='time'], [class*='clock-time']
+2026-07-18 10:24:12 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: [class*='timer'], [class*='time'], [class*='clock-time']
+2026-07-18 10:24:12 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\15_Employee_Attendance_20260718_102412.png
+2026-07-18 10:24:12 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:24:12 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:15 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:24:15 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:15 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:24:15 [INFO ] [TestListeners] - ✅ TEST PASSED: test_15_EmployeeAttendance [20962 ms]
+2026-07-18 10:24:15 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:15 [INFO ] [TestListeners] - TEST START: test_16_EmployeeLeaveRequest
+2026-07-18 10:24:15 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:15 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Leave Request
+2026-07-18 10:24:15 [INFO ] [BaseTest] - ── Employee: Leave Requests ──
+2026-07-18 10:24:15 [INFO ] [DashboardPage] - Navigating to module: Leave
+2026-07-18 10:24:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:17 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='/admin/leave'], a[href*='/employee/leave'], a[href*='leave']
+2026-07-18 10:24:17 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:17 [INFO ] [DashboardPage] - Navigation complete (sidebar): Leave
+2026-07-18 10:24:17 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h1.topbar-title, h3, .card-title
+2026-07-18 10:24:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: button.btn-primary, .toolbar button.btn-primary
+2026-07-18 10:24:23 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button.btn-primary, .toolbar button.btn-primary
+2026-07-18 10:24:23 [INFO ] [EmployeeLeavePage] - Apply leave form opened.
+2026-07-18 10:24:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card form, form
+2026-07-18 10:24:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select[name='type'], select[name='leaveType'], select
+2026-07-18 10:24:23 [INFO ] [EmployeeLeavePage] - Leave type selected: Annual Leave
+2026-07-18 10:24:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='startDate'], input[type='date']:first-of-type
+2026-07-18 10:24:24 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[name='endDate'], input[type='date']:last-of-type
+2026-07-18 10:24:24 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: textarea[name='reason'], textarea[placeholder*='reason'], textarea
+2026-07-18 10:24:24 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: button[type='submit'], form button.btn-primary
+2026-07-18 10:24:24 [INFO ] [EmployeeLeavePage] - Leave request submitted.
+2026-07-18 10:24:24 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toast, [class*='toast']
+2026-07-18 10:24:30 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .toast, [class*='toast']
+2026-07-18 10:24:35 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\16_Employee_Leave_Request_20260718_102435.png
+2026-07-18 10:24:35 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:24:35 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:38 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:24:38 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:38 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:24:38 [INFO ] [TestListeners] - ✅ TEST PASSED: test_16_EmployeeLeaveRequest [22527 ms]
+2026-07-18 10:24:38 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:38 [INFO ] [TestListeners] - TEST START: test_17_EmployeeAnnouncements
+2026-07-18 10:24:38 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:38 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Announcements
+2026-07-18 10:24:38 [INFO ] [BaseTest] - ── Employee: Announcements ──
+2026-07-18 10:24:38 [INFO ] [DashboardPage] - Navigating to module: Announcements
+2026-07-18 10:24:38 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:40 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='announcements']
+2026-07-18 10:24:40 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:40 [INFO ] [DashboardPage] - Navigation complete (sidebar): Announcements
+2026-07-18 10:24:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card, .announcement-card, .notice-card
+2026-07-18 10:24:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 10:24:40 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 10:24:41 [INFO ] [AnnouncementsPage] - Searched announcements: Welcome
+2026-07-18 10:24:41 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[placeholder*='Search notices'], input[placeholder*='Search'], .search-panel input
+2026-07-18 10:24:41 [INFO ] [AnnouncementsPage] - Searched announcements: 
+2026-07-18 10:24:41 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\17_Employee_Announcements_20260718_102441.png
+2026-07-18 10:24:41 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:24:41 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:43 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:24:49 [WARN ] [DashboardPage] - Sidebar click failed for Home — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='home'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60605}, goog:processID: 16696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60605/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 632934c81161687e30160e3528afe187
+2026-07-18 10:24:49 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:24:49 [INFO ] [DashboardPage] - Navigation complete (direct URL): Home → http://localhost:5173/employee/home
+2026-07-18 10:24:49 [INFO ] [TestListeners] - ✅ TEST PASSED: test_17_EmployeeAnnouncements [10713 ms]
+2026-07-18 10:24:49 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:49 [INFO ] [TestListeners] - TEST START: test_18_EmployeeProjects
+2026-07-18 10:24:49 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:49 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Projects
+2026-07-18 10:24:49 [INFO ] [BaseTest] - ── Employee: Projects ──
+2026-07-18 10:24:49 [INFO ] [DashboardPage] - Navigating to module: Projects
+2026-07-18 10:24:49 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:51 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='projects']
+2026-07-18 10:24:51 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:51 [INFO ] [DashboardPage] - Navigation complete (sidebar): Projects
+2026-07-18 10:24:51 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h1.topbar-title, h2
+2026-07-18 10:24:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .dept-bar-fill
+2026-07-18 10:24:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .badge
+2026-07-18 10:24:52 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\18_Employee_Projects_20260718_102452.png
+2026-07-18 10:24:52 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:24:52 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:54 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:24:54 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:54 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:24:54 [INFO ] [TestListeners] - ✅ TEST PASSED: test_18_EmployeeProjects [4995 ms]
+2026-07-18 10:24:55 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:55 [INFO ] [TestListeners] - TEST START: test_19_EmployeePayslips
+2026-07-18 10:24:55 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:24:55 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Payslips
+2026-07-18 10:24:55 [INFO ] [BaseTest] - ── Employee: Payslips ──
+2026-07-18 10:24:55 [INFO ] [DashboardPage] - Navigating to module: Payroll
+2026-07-18 10:24:55 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:24:57 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='payroll']
+2026-07-18 10:24:57 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:24:57 [INFO ] [DashboardPage] - Navigation complete (sidebar): Payroll
+2026-07-18 10:24:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 10:24:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap, .card
+2026-07-18 10:24:57 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .table-wrap .table, .table-wrap table, table.table
+2026-07-18 10:24:58 [INFO ] [PayrollPage] - Payslip 'View Breakdown' clicked.
+2026-07-18 10:24:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay
+2026-07-18 10:24:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-title
+2026-07-18 10:24:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-body div[style*='success'], .modal-body [style*='success'], .modal-body strong
+2026-07-18 10:24:58 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .modal-footer button.btn-secondary
+2026-07-18 10:24:58 [INFO ] [PayrollPage] - Payslip modal closed.
+2026-07-18 10:24:58 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\19_Employee_Payslips_20260718_102458.png
+2026-07-18 10:24:58 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:24:58 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:00 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:25:00 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:00 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:25:00 [INFO ] [TestListeners] - ✅ TEST PASSED: test_19_EmployeePayslips [5823 ms]
+2026-07-18 10:25:01 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:01 [INFO ] [TestListeners] - TEST START: test_20_EmployeeDocuments
+2026-07-18 10:25:01 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:01 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Company Documents
+2026-07-18 10:25:01 [INFO ] [BaseTest] - ── Employee: Company Documents ──
+2026-07-18 10:25:01 [INFO ] [DashboardPage] - Navigating to module: Documents
+2026-07-18 10:25:01 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='documents']
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:03 [INFO ] [DashboardPage] - Navigation complete (sidebar): Documents
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 10:25:03 [INFO ] [DocumentsPage] - Searched documents: Benefits
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .search-panel input, input[placeholder*='Search'], input[placeholder*='document']
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 10:25:03 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 10:25:04 [INFO ] [DocumentsPage] - Category filter applied: Technical Guidelines
+2026-07-18 10:25:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: select
+2026-07-18 10:25:04 [INFO ] [DocumentsPage] - Category filter applied: All Folders
+2026-07-18 10:25:04 [INFO ] [DocumentsPage] - Download clicked for first document.
+2026-07-18 10:25:04 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\20_Employee_Documents_20260718_102504.png
+2026-07-18 10:25:04 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:25:04 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:06 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:25:12 [WARN ] [DashboardPage] - Sidebar click failed for Home — falling back to direct URL: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href*='home'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '26.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60605}, goog:processID: 16696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60605/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 632934c81161687e30160e3528afe187
+2026-07-18 10:25:12 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:12 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .sidebar nav a, .sidebar a[href], .nav-link
+2026-07-18 10:25:12 [INFO ] [DashboardPage] - Navigation complete (direct URL): Home → http://localhost:5173/employee/home
+2026-07-18 10:25:12 [INFO ] [TestListeners] - ✅ TEST PASSED: test_20_EmployeeDocuments [11185 ms]
+2026-07-18 10:25:12 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:12 [INFO ] [TestListeners] - TEST START: test_21_EmployeeProfile
+2026-07-18 10:25:12 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:12 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Profile
+2026-07-18 10:25:12 [INFO ] [BaseTest] - ── Employee: Profile ──
+2026-07-18 10:25:12 [INFO ] [DashboardPage] - Navigating to module: Profile
+2026-07-18 10:25:12 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:14 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='profile']
+2026-07-18 10:25:14 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:14 [INFO ] [DashboardPage] - Navigation complete (sidebar): Profile
+2026-07-18 10:25:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .card, .profile-card
+2026-07-18 10:25:14 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .avatar, .profile-avatar, [class*='avatar']
+2026-07-18 10:25:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .profile-name, h3, h2
+2026-07-18 10:25:15 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .profile-card button.btn-primary, .card button.btn-primary, .main-content button.btn-primary, button[class*='primary']
+2026-07-18 10:25:20 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\21_Employee_Profile_20260718_102520.png
+2026-07-18 10:25:20 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:25:20 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:22 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:25:22 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:22 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:25:22 [INFO ] [TestListeners] - ✅ TEST PASSED: test_21_EmployeeProfile [10153 ms]
+2026-07-18 10:25:23 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:23 [INFO ] [TestListeners] - TEST START: test_22_EmployeeSettings
+2026-07-18 10:25:23 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:23 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Settings
+2026-07-18 10:25:23 [INFO ] [BaseTest] - ── Employee: Settings ──
+2026-07-18 10:25:23 [INFO ] [DashboardPage] - Navigating to module: Settings
+2026-07-18 10:25:23 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:25 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='settings']
+2026-07-18 10:25:25 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:25 [INFO ] [DashboardPage] - Navigation complete (sidebar): Settings
+2026-07-18 10:25:25 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: h2
+2026-07-18 10:25:25 [INFO ] [SettingsPage] - First toggle switch clicked.
+2026-07-18 10:25:25 [WARN ] [SettingsPage] - No save button found on Settings page.
+2026-07-18 10:25:25 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\22_Employee_Settings_20260718_102525.png
+2026-07-18 10:25:25 [INFO ] [DashboardPage] - Navigating to module: Home
+2026-07-18 10:25:25 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: .modal-overlay, .modal-backdrop
+2026-07-18 10:25:28 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: a[href*='home']
+2026-07-18 10:25:28 [DEBUG] [WaitUtils] - Page DOM load complete.
+2026-07-18 10:25:28 [INFO ] [DashboardPage] - Navigation complete (sidebar): Home
+2026-07-18 10:25:28 [INFO ] [TestListeners] - ✅ TEST PASSED: test_22_EmployeeSettings [5066 ms]
+2026-07-18 10:25:28 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:28 [INFO ] [TestListeners] - TEST START: test_23_EmployeeLogout
+2026-07-18 10:25:28 [INFO ] [TestListeners] - ──────────────────────────────────────────────
+2026-07-18 10:25:28 [INFO ] [ExtentManager] - ExtentTest created: [Employee] Employee Logout
+2026-07-18 10:25:28 [INFO ] [BaseTest] - ═══ EMPLOYEE LOGOUT ═══
+2026-07-18 10:25:28 [INFO ] [DashboardPage] - Performing logout...
+2026-07-18 10:25:28 [DEBUG] [WaitUtils] - Waiting for clickable: By.cssSelector: .sidebar-user button[title='Log Out'], .sidebar button[title='Log Out']
+2026-07-18 10:25:28 [INFO ] [DashboardPage] - Logout clicked via sidebar button.
+2026-07-18 10:25:28 [DEBUG] [WaitUtils] - Waiting for URL to contain: login
+2026-07-18 10:25:28 [DEBUG] [WaitUtils] - Waiting for visible: By.cssSelector: input[type='password']
+2026-07-18 10:25:28 [INFO ] [LoginPage] - Login page loaded: true
+2026-07-18 10:25:28 [INFO ] [ScreenshotUtil] - Screenshot saved: D:\proc\java\day 20_FE_AT\com.employee.automation\reports\screenshots\23_Employee_Logout_Success_20260718_102528.png
+2026-07-18 10:25:28 [INFO ] [BaseTest] - ═══════════════════════════════════════════════════════
+2026-07-18 10:25:28 [INFO ] [BaseTest] -   ALL 23 EMS AUTOMATION TESTS COMPLETED SUCCESSFULLY
+2026-07-18 10:25:28 [INFO ] [BaseTest] - ═══════════════════════════════════════════════════════
+2026-07-18 10:25:28 [INFO ] [TestListeners] - ✅ TEST PASSED: test_23_EmployeeLogout [335 ms]
+2026-07-18 10:25:29 [INFO ] [BaseTest] - ============================================================
+2026-07-18 10:25:29 [INFO ] [BaseTest] -   EMS Automation Framework - Suite Complete
+2026-07-18 10:25:29 [INFO ] [BaseTest] - ============================================================
+2026-07-18 10:25:31 [INFO ] [ExtentManager] - ExtentReports flushed successfully.
+2026-07-18 10:25:31 [INFO ] [DriverFactory] - Quitting ChromeDriver...
+2026-07-18 10:25:32 [INFO ] [DriverFactory] - ChromeDriver terminated.

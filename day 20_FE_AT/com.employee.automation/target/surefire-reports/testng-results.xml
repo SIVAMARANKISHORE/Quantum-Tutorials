@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-18T10:21:40 IST" name="EMS-Automation-Suite" finished-at="2026-07-18T10:25:29 IST" duration-ms="229102">
+    <groups>
+    </groups>
+    <test started-at="2026-07-18T10:21:40 IST" name="EMS-Full-Regression-Suite" finished-at="2026-07-18T10:25:29 IST" duration-ms="229102">
+      <class name="com.employee.automation.tests.EMSAutomationTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:21:33 IST" name="setUpSuite" finished-at="2026-07-18T10:21:40 IST" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method signature="test_01_AdminLogin()[pri:1, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:21:40 IST" name="test_01_AdminLogin" description="Admin Login - Authenticate with admin credentials" finished-at="2026-07-18T10:21:43 IST" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_AdminLogin -->
+        <test-method signature="test_02_AdminDashboard()[pri:2, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:21:43 IST" name="test_02_AdminDashboard" description="Admin Dashboard - Verify metrics, stat cards, sidebar navigation" finished-at="2026-07-18T10:21:49 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="6348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_AdminDashboard -->
+        <test-method signature="test_03_AdminEmployeeManagement()[pri:3, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:21:50 IST" name="test_03_AdminEmployeeManagement" description="Admin Employees - Table, Search, Add, Edit, Delete Employee" finished-at="2026-07-18T10:22:15 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="25297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_AdminEmployeeManagement -->
+        <test-method signature="test_04_AdminDepartments()[pri:4, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:22:15 IST" name="test_04_AdminDepartments" description="Admin Departments - Verify department cards and drill-down" finished-at="2026-07-18T10:22:21 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="5525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_AdminDepartments -->
+        <test-method signature="test_05_AdminAttendance()[pri:5, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:22:21 IST" name="test_05_AdminAttendance" description="Admin Attendance - Verify attendance monitor, search, filters" finished-at="2026-07-18T10:22:47 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="26308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_AdminAttendance -->
+        <test-method signature="test_06_AdminLeaveManagement()[pri:6, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:22:48 IST" name="test_06_AdminLeaveManagement" description="Admin Leave - Verify leave queue, approve/reject actions" finished-at="2026-07-18T10:22:58 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="10194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_AdminLeaveManagement -->
+        <test-method signature="test_07_AdminAnnouncements()[pri:7, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:22:58 IST" name="test_07_AdminAnnouncements" description="Admin Announcements - Compose, verify cards, search" finished-at="2026-07-18T10:23:11 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="12801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_07_AdminAnnouncements -->
+        <test-method signature="test_08_AdminProjects()[pri:8, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:11 IST" name="test_08_AdminProjects" description="Admin Projects - View project cards, add project, stat cards" finished-at="2026-07-18T10:23:23 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="11948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_08_AdminProjects -->
+        <test-method signature="test_09_AdminPayroll()[pri:9, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:24 IST" name="test_09_AdminPayroll" description="Admin Payroll - Verify salary register, stat cards, compliance run" finished-at="2026-07-18T10:23:30 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="6486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_09_AdminPayroll -->
+        <test-method signature="test_10_AdminDocuments()[pri:10, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:30 IST" name="test_10_AdminDocuments" description="Admin Documents - File catalog, search, upload, download" finished-at="2026-07-18T10:23:42 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="11248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_10_AdminDocuments -->
+        <test-method signature="test_11_AdminSettings()[pri:11, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:42 IST" name="test_11_AdminSettings" description="Admin Settings - Verify settings sections, toggles, save" finished-at="2026-07-18T10:23:47 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="5081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_11_AdminSettings -->
+        <test-method signature="test_12_AdminLogout()[pri:12, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:47 IST" name="test_12_AdminLogout" description="Admin Logout - Logout from admin account and verify login page" finished-at="2026-07-18T10:23:48 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_01_AdminLogin" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_12_AdminLogout -->
+        <test-method signature="test_13_EmployeeLogin()[pri:13, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:48 IST" name="test_13_EmployeeLogin" description="Employee Login - Login with employee credentials in same browser" finished-at="2026-07-18T10:23:50 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_12_AdminLogout" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_13_EmployeeLogin -->
+        <test-method signature="test_14_EmployeeHome()[pri:14, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:51 IST" name="test_14_EmployeeHome" description="Employee Home - Verify workspace, greeting, leave balance, clock widget" finished-at="2026-07-18T10:23:53 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_14_EmployeeHome -->
+        <test-method signature="test_15_EmployeeAttendance()[pri:15, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:23:54 IST" name="test_15_EmployeeAttendance" description="Employee Attendance - Clock in, verify timer, check table" finished-at="2026-07-18T10:24:15 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="20962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_15_EmployeeAttendance -->
+        <test-method signature="test_16_EmployeeLeaveRequest()[pri:16, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:24:15 IST" name="test_16_EmployeeLeaveRequest" description="Employee Leave Request - Apply, validate form, check history" finished-at="2026-07-18T10:24:38 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="22527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_16_EmployeeLeaveRequest -->
+        <test-method signature="test_17_EmployeeAnnouncements()[pri:17, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:24:38 IST" name="test_17_EmployeeAnnouncements" description="Employee Announcements - Read notices, search announcements" finished-at="2026-07-18T10:24:49 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="10713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_17_EmployeeAnnouncements -->
+        <test-method signature="test_18_EmployeeProjects()[pri:18, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:24:49 IST" name="test_18_EmployeeProjects" description="Employee Projects - View project board, progress bars, badges" finished-at="2026-07-18T10:24:54 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="4995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_18_EmployeeProjects -->
+        <test-method signature="test_19_EmployeePayslips()[pri:19, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:24:55 IST" name="test_19_EmployeePayslips" description="Employee Payslips - View payslip breakdown, verify salary slip modal" finished-at="2026-07-18T10:25:00 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="5823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_19_EmployeePayslips -->
+        <test-method signature="test_20_EmployeeDocuments()[pri:20, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:25:01 IST" name="test_20_EmployeeDocuments" description="Employee Documents - View company docs, search, filter, download" finished-at="2026-07-18T10:25:12 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="11185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_20_EmployeeDocuments -->
+        <test-method signature="test_21_EmployeeProfile()[pri:21, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:25:12 IST" name="test_21_EmployeeProfile" description="Employee Profile - Verify profile info, edit phone, save" finished-at="2026-07-18T10:25:22 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="10153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_21_EmployeeProfile -->
+        <test-method signature="test_22_EmployeeSettings()[pri:22, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:25:23 IST" name="test_22_EmployeeSettings" description="Employee Settings - Verify settings sections and toggles" finished-at="2026-07-18T10:25:28 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="5066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_22_EmployeeSettings -->
+        <test-method signature="test_23_EmployeeLogout()[pri:23, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:25:28 IST" name="test_23_EmployeeLogout" description="Employee Logout - Logout and verify login page is shown" finished-at="2026-07-18T10:25:28 IST" depends-on-methods="com.employee.automation.tests.EMSAutomationTest.test_13_EmployeeLogin" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_23_EmployeeLogout -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.employee.automation.tests.EMSAutomationTest@39a8312f]" started-at="2026-07-18T10:25:29 IST" name="tearDownSuite" finished-at="2026-07-18T10:25:32 IST" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.employee.automation.tests.EMSAutomationTest -->
+    </test> <!-- EMS-Full-Regression-Suite -->
+  </suite> <!-- EMS-Automation-Suite -->
+</testng-results>
